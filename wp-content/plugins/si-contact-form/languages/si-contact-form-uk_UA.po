@@ -1,0 +1,537 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: si-contact-form\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/si-contact-form\n"
+"POT-Creation-Date: 2009-08-27 17:15+0000\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: wordpress.ua <wordpress.ua@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Ukrainian\n"
+"X-Poedit-Country: UKRAINE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: si-contact-form.php:38
+msgid "SI Contact Form Options"
+msgstr "Форма Контакту СІ"
+
+#: si-contact-form.php:81
+#: si-contact-form.php:283
+#: si-contact-form.php:659
+msgid "<p>Comments or questions are welcome.</p>"
+msgstr "<p>вопроси і коментарі пріветствуются</p>"
+
+#: si-contact-form.php:82
+#: si-contact-form.php:306
+#: si-contact-form.php:571
+msgid "Webmaster"
+msgstr "Вебмастер"
+
+#: si-contact-form.php:85
+msgid "Contact:"
+msgstr "тема повідомлення"
+
+#: si-contact-form.php:125
+msgid "You do not have permissions for managing this option"
+msgstr "У вас недостатньо прав для зміни цього параметра"
+
+#: si-contact-form.php:229
+msgid "Options saved."
+msgstr "Настройки збережені"
+
+#: si-contact-form.php:232
+msgid "Fast and Secure Contact Form Options"
+msgstr "Швидка і безпечна форма зворотного зв'язку"
+
+#: si-contact-form.php:244
+msgid "Donate"
+msgstr "Пожертвувати"
+
+#: si-contact-form.php:255
+msgid "If you find this plugin useful to you, please consider making a small donation to help contribute to further development. Thanks for your kind support!"
+msgstr "Якщо ви знаходите цей плагін корисним, будь ласка, розглянете можливість маленького добродійного внеску, щоб підтримати подальшу розробку. Спасибі за вашу добру підтримку!"
+
+#: si-contact-form.php:259
+msgid "Usage"
+msgstr "Використання"
+
+#: si-contact-form.php:261
+msgid "You must add the shortcode <b>[si_contact_form]</b> in a Page. That page will become your Contact Form"
+msgstr "Ви можете додати спрощений код <b>[si_contact_form]</b> на сторінку. Ця сторінка стане формою зворотного зв'язку на вашому сайті."
+
+#: si-contact-form.php:261
+#: si-contact-form.php:289
+#: si-contact-form.php:357
+#: si-contact-form.php:376
+#: si-contact-form.php:389
+#: si-contact-form.php:400
+#: si-contact-form.php:443
+#: si-contact-form.php:466
+#: si-contact-form.php:478
+#: si-contact-form.php:486
+#: si-contact-form.php:494
+#: si-contact-form.php:503
+msgid "help"
+msgstr "допомога"
+
+#: si-contact-form.php:264
+msgid "Options"
+msgstr "Настройки"
+
+#: si-contact-form.php:276
+msgid "Form:"
+msgstr "Від:"
+
+#: si-contact-form.php:278
+msgid "Welcome introduction"
+msgstr "Вступне вітання"
+
+#: si-contact-form.php:289
+#: si-contact-form.php:357
+#: si-contact-form.php:376
+#: si-contact-form.php:389
+#: si-contact-form.php:400
+#: si-contact-form.php:443
+#: si-contact-form.php:466
+#: si-contact-form.php:478
+#: si-contact-form.php:486
+#: si-contact-form.php:494
+#: si-contact-form.php:503
+msgid "Click for Help!"
+msgstr "Допомога по кліку"
+
+#: si-contact-form.php:291
+msgid "This gets printed when the contact form is first presented. It is not printed when there is an input error and not printed after the form is completed."
+msgstr "Вступний текст, який відображається перед вашою формою зворотного зв'язку. Цей текст не відображатиметься при виникненні помилок введення або після заповнення форми повністю."
+
+#: si-contact-form.php:296
+msgid "E-mail:"
+msgstr "Електронна пошта:"
+
+#: si-contact-form.php:349
+msgid "E-mail To"
+msgstr "E-mail получателя"
+
+#: si-contact-form.php:352
+#: si-contact-form.php:372
+#: si-contact-form.php:385
+#: si-contact-form.php:998
+msgid "ERROR: Misconfigured E-mail address in options."
+msgstr "ПОМИЛКА: Ненастроєна адреса E-mail в настройках."
+
+#: si-contact-form.php:359
+msgid "E-mail address the messages are sent to (your email). Add as many contacts as you need, the drop down list on the contact form will be made automatically. Each contact has a name and an email address separated by a comma. Separate each contact by pressing enter. If you need to add more than one contact, follow this example:"
+msgstr "E-mail адрес, на который отправляются письма (ваш email). Добавьте столько контактов, сколько потребуется - выпадающий список на форме отправки сообщения будет создан автоматически. Каждый контакт имеет название и email-адрес, разделенные запятой.Вводите каждый контакт на отдельной строке. Если вам необходимо добавить больше чем один контакт, следуйте этому примеру:"
+
+#: si-contact-form.php:363
+msgid "Also, you can have multiple E-mails per contact, this is called a CC(Carbon Copy). Separate each CC with a semicolon. If you need to add more than one contact, each with a CC, follow this example:"
+msgstr "Также, для каждого контакта может быть несколько адресов e-mail, это называется CC (Carbon Copy). Разделите каждый CC-адрес точкой с запятой. Если вам необходимо добавить несколько контактов, имеющих CC, следуйте этому примеру:"
+
+#: si-contact-form.php:369
+msgid "E-mail From (optional)"
+msgstr "E-mail отправителя (необязательно)"
+
+#: si-contact-form.php:378
+msgid "E-mail address the messages are sent from. Normally you should leave this blank. Some web hosts do not allow PHP to send E-mail unless the \"From:\" E-mail address is on the same web domain. If your contact form does not send any E-mail, then set this to an E-mail address on the SAME domain as your web site as a possible fix."
+msgstr "E-mail адрес, с которого отправлено сообщение. В обычном режиме вам следует оставить его пустым. Некоторые хостеры не разрешают отправку с помощью PHP в случае, если домен адреса \"From:\" не совпадает с доменом вашего сайта. Если сообщения не отправляются, тогда укажите в этом поле  email-адрес совпадающий именем домена с именем домена вашего сайта. Возможно это поможет."
+
+#: si-contact-form.php:382
+msgid "E-mail Bcc (optional)"
+msgstr "E-mail Bcc (необязательно)"
+
+#: si-contact-form.php:391
+msgid "This Bcc address is global, which means that if you have multi \"E-mail To\" contacts, any contact selected will send to this also."
+msgstr "Это глобальный адрес Bcc,  т.е. если вы задали несколько адресов назначения на выбор, то при выборе пользователем любого из них будет также отправлено письмо и по этому адресу."
+
+#: si-contact-form.php:392
+msgid "E-mail address(s) to receive Bcc (Blind Carbon Copy) messages. You can send to multiple or single, both methods are acceptable:"
+msgstr "E-mail адреса для отримання Bcc (Blind Carbon Copy)  - прихованої копії. Ви можете відправляти одному або декільком, обидва методи підходять:"
+
+#: si-contact-form.php:399
+msgid "E-mail Subject Prefix"
+msgstr "Текст префікса для теми повідомлень"
+
+#: si-contact-form.php:402
+msgid "This will become a prefix of the subject for the E-mail you receive."
+msgstr "Цей текст підставлятиметься автоматично в початок теми повідомлень, які ви отримуватимете."
+
+#: si-contact-form.php:407
+msgid "Enable double E-mail entry required on contact form."
+msgstr "Включити дублювання введення E-mail."
+
+#: si-contact-form.php:410
+msgid "Enable Form Post security by requiring domain name match for"
+msgstr "Включити посилення безпеки вимогою збігу імені домена"
+
+#: si-contact-form.php:415
+msgid "(recommended)."
+msgstr "(рекомендується)"
+
+#: si-contact-form.php:422
+msgid "CAPTCHA:"
+msgstr "CAPTCHA:"
+
+#: si-contact-form.php:425
+msgid "Enable CAPTCHA (recommended)."
+msgstr "Включити CAPTCHA (рекомендується)."
+
+#: si-contact-form.php:428
+msgid "Hide CAPTCHA for"
+msgstr "Приховати CAPTCHA"
+
+#: si-contact-form.php:429
+msgid "registered"
+msgstr "зареєстрованих"
+
+#: si-contact-form.php:429
+msgid "users who can"
+msgstr "користувачі які можуть"
+
+#: si-contact-form.php:432
+msgid "Test if your PHP installation will support the CAPTCHA"
+msgstr "Перевірити чи працюватиме CAPTCHA на вашому PHP"
+
+#: si-contact-form.php:437
+msgid "Redirect:"
+msgstr "Перенаправлення:"
+
+#: si-contact-form.php:440
+msgid "Enable redirect after the message sends"
+msgstr "Включити перенаправлення після відправки повідомлення"
+
+#: si-contact-form.php:442
+msgid "Redirect URL"
+msgstr "Перенаправляти за адресою URL"
+
+#: si-contact-form.php:445
+msgid "After a user sends a message, the web browser will display \"message sent\" for 5 seconds, then redirect to this URL."
+msgstr "Після відправки повідомлення, в браузере відображатиметься  \"сообщение отправлено\" в течії 5 секунд, потім відбудеться перенаправлення на цей URL. "
+
+#: si-contact-form.php:454
+msgid "Click for Advanced Options"
+msgstr "Додаткові настройки (показати?)"
+
+#: si-contact-form.php:460
+msgid "Style:"
+msgstr "Стилі:"
+
+#: si-contact-form.php:464
+msgid "Enable border on contact form"
+msgstr "Відображати межі елементів форми"
+
+#: si-contact-form.php:465
+msgid "Border Width"
+msgstr "Товщина межі"
+
+#: si-contact-form.php:468
+msgid "Use to adjust the width of the contact form border (if border is enabled)."
+msgstr "Ви можете задати розмір полів для введення"
+
+#: si-contact-form.php:473
+msgid "CSS style for form input titles on the contact form"
+msgstr "CSS стиль для заголовків полів введення"
+
+#: si-contact-form.php:474
+msgid "CSS style for form input fields on the contact form"
+msgstr "CSS стиль для полів введення"
+
+#: si-contact-form.php:475
+msgid "CSS style for form input errors on the contact form"
+msgstr "CSS стиль для оформлення помилок введення"
+
+#: si-contact-form.php:477
+msgid "Input Text Field Size"
+msgstr "Розмір текстового поля введення"
+
+#: si-contact-form.php:480
+msgid "Use to adjust the size of the contact form text input fields."
+msgstr "Ви можете задати розмір полів для введення"
+
+#: si-contact-form.php:484
+msgid "Input Textarea Field Cols"
+msgstr "Розмір ширини поля для введення тексту повідомлення"
+
+#: si-contact-form.php:485
+msgid "Rows"
+msgstr "Рядки"
+
+#: si-contact-form.php:488
+msgid "Use to adjust the size of the contact form message textarea."
+msgstr "Задайте розмір поля для введення тексту повідомлення"
+
+#: si-contact-form.php:493
+msgid "Enable aria-required tags for screen readers"
+msgstr "Включити тег aria-required для голосових інтерпретаторів тексту з екрану."
+
+#: si-contact-form.php:496
+msgid "aria-required is a form input WAI ARIA tag. Screen readers use it to determine which fields are required. Enabling this is good for accessability, but will cause the HTML to fail the W3C Validation (there is no attribute \"aria-required\"). WAI ARIA attributes are soon to be accepted by the HTML validator, so you can safely ignore the validation error it will cause."
+msgstr "aria-required это специальный WAI ARIA тэг для полей ввода на форме. Голосовые интерпретаторы текста с экрана используют этот тэг, чтобы определить какие из полей для ввода на форме обязательна для заполнения. Использование этих тэгов удобно для людей с ограниченными возможностями, но послужит причиной невалидности HTML при проверке W3C (не существует аттрибута \"aria-required\"). WAI ARIA аттрибуты вскоре будут приняты как корректные в спецификацию W3C, поэтому вы можете просто игнорировать возникающую при проверке ошибку."
+
+#: si-contact-form.php:501
+msgid "Fields:"
+msgstr "Поля форми:"
+
+#: si-contact-form.php:505
+msgid "Some people wanted to change the text labels for the contact form. These fields can be filled in to override the standard included field titles."
+msgstr "Деяким необхідно мати можливість змінювати написи форми зворотного зв'язку. Впишіть свій текст для цих полів і вони почнуть показуватися замість стандартних написів, прийнятих за умовчанням."
+
+#: si-contact-form.php:508
+#: si-contact-form.php:988
+msgid "Contact Form"
+msgstr "Форма для відправки повідомлень"
+
+#: si-contact-form.php:509
+#: si-contact-form.php:1008
+msgid "Department to Contact"
+msgstr "Направити повідомлення у відділ:"
+
+#: si-contact-form.php:510
+#: si-contact-form.php:1060
+msgid "Name"
+msgstr "Ваше ім'я"
+
+#: si-contact-form.php:511
+#: si-contact-form.php:1075
+#: si-contact-form.php:1111
+msgid "E-Mail Address"
+msgstr "Адреса електронної пошти"
+
+#: si-contact-form.php:512
+#: si-contact-form.php:1088
+msgid "E-Mail Address again"
+msgstr "Адреса електронної ще раз, будь ласка"
+
+#: si-contact-form.php:513
+#: si-contact-form.php:1098
+msgid "Please enter your E-mail Address a second time."
+msgstr "Будь ласка, введіть вашу адресу електронної пошти ще раз. Спасибі."
+
+#: si-contact-form.php:514
+#: si-contact-form.php:1127
+msgid "Subject"
+msgstr "Тема повідомлення"
+
+#: si-contact-form.php:515
+#: si-contact-form.php:907
+#: si-contact-form.php:1143
+msgid "Message"
+msgstr "Текст повідомлення"
+
+#: si-contact-form.php:516
+#: si-contact-form.php:1252
+msgid "CAPTCHA Code"
+msgstr "CAPTCHA код"
+
+#: si-contact-form.php:517
+#: si-contact-form.php:1166
+msgid "Submit"
+msgstr "Відправити"
+
+#: si-contact-form.php:518
+#: si-contact-form.php:674
+msgid "Your message has been sent, thank you."
+msgstr "Ваше повідомлення відправлене. Спасибі."
+
+#: si-contact-form.php:529
+msgid "Update Options"
+msgstr "Відновити настройки"
+
+#: si-contact-form.php:539
+msgid "All registered users"
+msgstr "Всі зареєстровані користувачі"
+
+#: si-contact-form.php:540
+msgid "Edit posts"
+msgstr "Редагувати"
+
+#: si-contact-form.php:541
+msgid "Publish Posts"
+msgstr "Опублікувати"
+
+#: si-contact-form.php:542
+msgid "Moderate Comments"
+msgstr "Модерация коментарів."
+
+#: si-contact-form.php:543
+msgid "Administer site"
+msgstr "Управляти сайтом"
+
+#: si-contact-form.php:705
+#: si-contact-form.php:706
+msgid "Redirecting"
+msgstr "Спасибі. Здійснюється перехід на іншу сторінку."
+
+#: si-contact-form.php:759
+msgid "Selecting a contact is required."
+msgstr "Необхідно вибрати одержувача із списку."
+
+#: si-contact-form.php:763
+msgid "Requested Contact not found."
+msgstr "Вказаний контакт не знайдений."
+
+#: si-contact-form.php:798
+#: si-contact-form.php:861
+msgid "Contact Form has Invalid Input"
+msgstr "Помилка при введенні"
+
+#: si-contact-form.php:803
+msgid "Your IP is Banned"
+msgstr "Ваш IP забанен."
+
+#: si-contact-form.php:813
+msgid "Your name is required."
+msgstr "Будь ласка, введіть ваше ім'я."
+
+#: si-contact-form.php:817
+#: si-contact-form.php:821
+msgid "A proper e-mail address is required."
+msgstr "Можливо, ви допустили помилку в адресі електронної пошти."
+
+#: si-contact-form.php:825
+msgid "The two e-mail addresses did not match, please enter again."
+msgstr "Введені адреси електронної пошти не співпадають, будь ласка, введіть їх ще раз."
+
+#: si-contact-form.php:829
+msgid "Subject text is required."
+msgstr "Нобходімо ввести тему повідомлення."
+
+#: si-contact-form.php:833
+msgid "Message text is required."
+msgstr "Необхідно ввести повідомлення."
+
+#: si-contact-form.php:872
+msgid "Could not read CAPTCHA cookie. Make sure you have cookies enabled and not blocking in your web browser settings. Or another plugin is conflicting. See plugin FAQ."
+msgstr "Не можу  прочитати coockie для CAPTCHA. Перевірте, чи включені cookie і чи не заблоковані вони в настройках вашого браузера. Також, можливий конфілкт з іншим встановленим плагін. Смтотріте FAQ плагін."
+
+#: si-contact-form.php:876
+msgid "Please complete the CAPTCHA."
+msgstr "Будь ласка, введіть перевірочний код."
+
+#: si-contact-form.php:886
+msgid "That CAPTCHA was incorrect."
+msgstr "Не вірний код підтвердження."
+
+#: si-contact-form.php:901
+msgid "To"
+msgstr "Кому"
+
+#: si-contact-form.php:903
+msgid "From"
+msgstr "Від"
+
+#: si-contact-form.php:919
+msgid "From a WordPress user"
+msgstr "Від імені зареєстрованого користувача"
+
+#: si-contact-form.php:921
+msgid "Sent from (ip address)"
+msgstr "Відправлено з (ip адреси)"
+
+#: si-contact-form.php:922
+msgid "Date/Time"
+msgstr "Дата/Час"
+
+#: si-contact-form.php:923
+msgid "Coming from (referer)"
+msgstr "Доставлено з (реферер)"
+
+#: si-contact-form.php:924
+msgid "Using (user agent)"
+msgstr "Используя (агент користувача)"
+
+#: si-contact-form.php:995
+msgid "INPUT ERROR: Please make corrections below and try again."
+msgstr "ПОМИЛКА ВВЕДЕННЯ: Будь ласка, виправіть введений текст і спробуйте відправити ще раз."
+
+#: si-contact-form.php:1016
+msgid "Select"
+msgstr "Вибіріте"
+
+#: si-contact-form.php:1219
+msgid "ERROR: si-contact-form.php plugin says GD image support not detected in PHP!"
+msgstr "ПОМИЛКА: si-contact-form.php плагін повідомляє, що підтримка GD image не підтримується в PHP!"
+
+#: si-contact-form.php:1220
+msgid "Contact your web host and ask them why GD image support is not enabled for PHP."
+msgstr "Зв'яжіться з вашим host-провайдером і дізнайтеся, почому GD image відключена  для PHP."
+
+#: si-contact-form.php:1224
+msgid "ERROR: si-contact-form.php plugin says imagepng function not detected in PHP!"
+msgstr "ПОМИЛКА: si-contact-form.php плагін повідомляє, що функція imagepng не виявлена в PHP!"
+
+#: si-contact-form.php:1225
+msgid "Contact your web host and ask them why imagepng function is not enabled for PHP."
+msgstr "Зв'яжіться з вашим хост-провайдером і дізнайтеся, чому функція imagepng не включена для PHP."
+
+#: si-contact-form.php:1229
+msgid "ERROR: si-contact-form.php plugin says captcha_library not found."
+msgstr "ПОМИЛКА: плагін si-contact-form.php повідомляє, що captcha_library не виявлена."
+
+#: si-contact-form.php:1263
+msgid "CAPTCHA Image"
+msgstr "CAPTCHA картинка"
+
+#: si-contact-form.php:1264
+msgid "Audible Version of CAPTCHA"
+msgstr "Аудіо-версия CAPTCHA"
+
+#: si-contact-form.php:1265
+msgid "Audio Version"
+msgstr "Аудіо-версия"
+
+#: si-contact-form.php:1267
+msgid "Refresh Image"
+msgstr "Відновити картинку"
+
+#: si-contact-form.php:1269
+msgid "Reload Image"
+msgstr "Перезавантажити картинку"
+
+#: si-contact-form.php:1285
+msgid "ERROR"
+msgstr "ПОМИЛКА"
+
+#: si-contact-form.php:1454
+msgid "Settings"
+msgstr "Настройки"
+
+#. Plugin Name of an extension
+msgid "Fast and Secure Contact Form"
+msgstr "Швидка і безпечна форма зворотного зв'язку"
+
+#. Plugin URI of an extension
+msgid "http://www.642weather.com/weather/scripts-wordpress-si-contact.php"
+msgstr ""
+
+#. Description of an extension
+#, fuzzy
+msgid "Fast and Secure Contact Form for WordPress. The contact form lets your visitors send you a quick E-mail message. Blocks all common spammer tactics. Spam is no longer a problem. Includes a CAPTCHA and Akismet support. Does not require JavaScript. <a href=\"plugins.php?page=si-contact-form/si-contact-form.php\">Settings</a> | <a href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=6105441\">Donate</a>"
+msgstr "Быстрая и безопасная форма обратной связи для WordPress. Форма обратной связи позволяет вашим посетителям отправить вам быстрое email-сообщение. Блокирует всю основную тактику спама. Спам - уже больше не проблема. Включает CAPTCHA и Akismet. Не требует JavaScript.<a href=\"plugins.php?page=si-contact-form/si-contact-form.php\">Настройки</a> | <a href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=6105441\">Пожертвовать</a>"
+
+#. Author of an extension
+msgid "Mike Challis"
+msgstr "Майк Чаліс"
+
+#. Author URI of an extension
+msgid "http://www.642weather.com/weather/scripts.php"
+msgstr ""
+
+#~ msgid "Sent from"
+#~ msgstr "Это сообщение отправлено Вам с сайта"
+#~ msgid "contact form"
+#~ msgstr "со страницы отправки сообщений"
+#~ msgid "The e-mail could not be sent."
+#~ msgstr "Невозможно отправить e-mail."
+#~ msgid "Possible reason: your host may have disabled the mail() function..."
+#~ msgstr "Возможная причина: на вашем хостинге отключена функция mail()..."
+#~ msgid "E-mail header field: language"
+#~ msgstr "Значение заголовка E-mail: language"
+#~ msgid "Do not change unless you have good reason to."
+#~ msgstr "Не меняйте, если у вас нет на это стоящей причины."
+#~ msgid "E-mail header field: charset"
+#~ msgstr "Значение заголовка E-mail: charcet"
+#~ msgid "E-mail header field: encoding"
+#~ msgstr "Значение заголовка E-mail: encoding"
+
