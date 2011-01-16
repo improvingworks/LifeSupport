@@ -1,0 +1,516 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-09-28 15:10-0800\n"
+"PO-Revision-Date: 2010-10-07 10:16+0100\n"
+"Last-Translator: Németh Balázs <nb0000@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: C:\\wamp\\www\\wordpress\\wp-content\\plugins\\mappress-google-maps-for-wordpress\n"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress.php:99
+msgid "Internal error, map was missing.  Your data has not been saved!"
+msgstr "Belső hiba, a tértkép hiányzik. Az adatok nem lettek elmentve!"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress.php:104
+msgid "Internal error - unable to save map.  Your data has not been saved!"
+msgstr "Belső hiba, nem lehet menteni a térképet. Az adatok nem lettek mentve!"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress.php:127
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress_api.php:555
+msgid "Untitled"
+msgstr "Névtelen"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress.php:510
+msgid "Settings"
+msgstr "Beállítások"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress.php:511
+msgid "Automatic map display"
+msgstr "Auto térkép megjelenítés"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress.php:512
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress_api.php:562
+msgid "Directions"
+msgstr "útvonaltervezés"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress.php:513
+msgid "Map types"
+msgstr "Térkép típusok"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress.php:514
+msgid "Street View"
+msgstr "Utca nézet"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress.php:515
+msgid "Scroll wheel zoom"
+msgstr "Egérgörgős nagyítás"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress.php:516
+msgid "Keyboard shortcuts"
+msgstr "Gyorsbillentyűk"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress.php:517
+msgid "Open first marker"
+msgstr "Első jelölő megnyitása"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress.php:518
+msgid "Show traffic button"
+msgstr "Forgalom gomb megjelenítése"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress.php:519
+msgid "Tooltips"
+msgstr "Tippek"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress.php:520
+msgid "Map alignment"
+msgstr "Térkép igazítás"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress.php:521
+msgid "Language"
+msgstr "Nyelv"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress.php:522
+msgid "Country"
+msgstr "Ország"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress.php:523
+msgid "Post types"
+msgstr "Bejegyzés típusok"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress.php:524
+msgid "Custom CSS"
+msgstr "Egyedi CSS"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress.php:525
+msgid "Force resize"
+msgstr "Kényszerített átméretezés"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress.php:526
+msgid "Map custom field"
+msgstr "Térkép egyedi mező"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress.php:569
+msgid "country code"
+msgstr "ország kód"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress.php:571
+#, php-format
+msgid " Enter a %s to use when searching (leave blank for USA): "
+msgstr " Adjon meg %sot kereséshez (legyen üres USA esetén): "
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress.php:581
+msgid " Enable zoom with the mouse scroll wheel"
+msgstr " Nagyítás engedélyezése egérgörgővel"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress.php:589
+msgid " Enable keyboard panning and zooming"
+msgstr " Mozgatás és nagyítás engedélyezése billentyűzetről"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress.php:595
+msgid "language"
+msgstr "nyelv"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress.php:597
+#, php-format
+msgid " Use a specific %s for map controls (default is the browser language setting): "
+msgstr " Egyedi %s használata a vezérlőkhöz (alap a böngésző nyelve): "
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress.php:608
+msgid " Allow your readers to change the map type (street, satellite, or hybrid)"
+msgstr " Az olvasók módosíthassák a térkép típusát (utca, szatelit, vegyes)"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress.php:616
+msgid " Display the street view control \"peg man\""
+msgstr " Utca nézet vezérlő megjelenítése (\"peg man\")"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress.php:630
+msgid "Inline (in your blog)"
+msgstr "Sorban (térkép után)"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress.php:634
+msgid "Google"
+msgstr "Google"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress.php:638
+msgid "None"
+msgstr "Nincs"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress.php:640
+msgid "Select 'Google' if directions aren't displaying properly in your theme"
+msgstr "Válassza a 'Google' lehetőséget, ha az irány információk nem jól jelennek meg az oldalon"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress.php:649
+msgid " Automatically open the first marker when a map is displayed"
+msgstr " Automatikusan nyissa meg az első jelölőt, amikor a térkép megjelenik"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress.php:658
+msgid " Show a button for real-time traffic conditions"
+msgstr " Valós idejű forgalmi állapotok gomb megjelenítése"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress.php:667
+msgid " Show marker titles as a \"tooltip\" on mouse-over.  Switch this off if you use HTML in your marker titles"
+msgstr " Jelölő címének megjelenítése magyarázó szövegként, ha fölé visszük az egeret. Kapcsolja ezt ki, ha HTML kódot használ a címekben!"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress.php:675
+msgid "Default"
+msgstr "Alapérték"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress.php:679
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress.php:680
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress_api.php:499
+msgid "Center"
+msgstr "Középre"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress.php:684
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress.php:685
+msgid "Left"
+msgstr "Balra"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress.php:689
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress.php:690
+msgid "Right"
+msgstr "Jobbra"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress.php:698
+msgid "Top of post"
+msgstr "Bejegyzés tetején"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress.php:702
+msgid "Bottom of post"
+msgstr "Bejegyzés alján"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress.php:706
+msgid "No automatic display"
+msgstr "Nincs automatikus megjelenítés"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress.php:716
+msgid "post types"
+msgstr "bejegyzés típusok"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress.php:718
+#, php-format
+msgid "Mark the %s where you want to use MapPress:"
+msgstr "Adja meg a %sokat, ahol használni szeretné a MapPress-t:"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress.php:725
+msgid "post"
+msgstr "bejegyzés"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress.php:727
+msgid "page"
+msgstr "oldal"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress.php:734
+msgid " Sized your maps wrong?  Click to permanently resize ALL of your maps: "
+msgstr "Rossz a térképek mérete? Kattintson alább az ÖSSZES térkép végleges átméretezéséhez:"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress.php:736
+msgid "Force Resize"
+msgstr "Késznyerített méret!"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress.php:745
+#, php-format
+msgid " Include your own CSS.  You must create a file named %s in the MapPress %s sub-directory"
+msgstr "Használhat saját CSS fájlt is. Készítsen egy %s nevű fájlt a MapPress %s alkönyvtárában!"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress.php:753
+msgid "custom field"
+msgstr "egyedi mező"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress.php:756
+#, php-format
+msgid "Map addresses from a %s : "
+msgstr "Térkép címek innen %s:"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress.php:784
+msgid "MapPress"
+msgstr "MapPress"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress.php:786
+msgid " Version: "
+msgstr "Verzió: "
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress.php:787
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress_api.php:443
+msgid "Documentation"
+msgstr "Dokumentáció"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress.php:788
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress_api.php:445
+msgid "Report a bug"
+msgstr "Hiba jelentése"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress.php:793
+msgid "Donate"
+msgstr "Támogatás"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress.php:799
+msgid "Please make a donation today!"
+msgstr "Kérem támogasson még ma!"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress.php:809
+msgid "Save Changes"
+msgstr "Módosítások mentése"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress.php:823
+msgid "MapPress database tables are missing.  Please deactivate the plugin and activate it again to fix this."
+msgstr "Hiányoznak a MapPress táblák az adatbázisból. Kérem kapcsolja ki majd be a bővítményt a probléma megoldásához."
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress.php:828
+msgid "WARNING: MapPress requires WordPress 3.0 or higher.  Please upgrade before using MapPress."
+msgstr "FIGYELEM: a MapPress működéséhez legalább 3.0-ás WordPress kell. Kérem firssítsen a MapPress használata előtt."
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress.php:833
+msgid "WARNING: MapPress is not compatible with the WP-Geo plugin - your RSS feeds will not work.  Please deactivate or uninstall WP-Geo before using MapPress."
+msgstr "FIGYELEM: A MegPress nem kompatibilis a WP_Geo beépülővel, az RSS nem fog működni. Kérem kapcsolja ki, vagy távolítsa el a WP-Geo bővítményt a MapPress használata előtt."
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress_api.php:379
+msgid "Close"
+msgstr "Bezárás"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress_api.php:380
+msgid "By car"
+msgstr "autóval"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress_api.php:381
+msgid "Walking"
+msgstr "gyalogosan"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress_api.php:382
+msgid "Bicycling"
+msgstr "kerékpárral"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress_api.php:387
+msgid "Start"
+msgstr "Indulás"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress_api.php:394
+msgid "Swap start and end"
+msgstr "kiindulópont és cél cseréje"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress_api.php:400
+msgid "End"
+msgstr "Cél"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress_api.php:408
+msgid "Get Directions"
+msgstr "Irányok lekérdezése"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress_api.php:409
+msgid "Print Directions"
+msgstr "Irányok nyomtatása"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress_api.php:444
+msgid "FAQ"
+msgstr "GyIK"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress_api.php:451
+msgid "Add"
+msgstr "Új"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress_api.php:455
+msgid "Location"
+msgstr "Helyszín"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress_api.php:460
+msgid "Lat/Lng"
+msgstr "Lat/Lng"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress_api.php:464
+msgid "Toggle lat/lng entry"
+msgstr "Lat/Lng bejegyzés cseréje"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress_api.php:476
+msgid "Current Maps"
+msgstr "Aktuális térképek"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress_api.php:477
+msgid "New Map"
+msgstr "Új térkép"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress_api.php:486
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress_api.php:554
+msgid "Map ID"
+msgstr "Térkép ID"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress_api.php:489
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress_api.php:571
+msgid "Title"
+msgstr "Cím"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress_api.php:492
+msgid "Small"
+msgstr "Kicsi"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress_api.php:493
+msgid "Medium"
+msgstr "Közepes"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress_api.php:494
+msgid "Large"
+msgstr "Nagy"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress_api.php:498
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress_api.php:564
+msgid "Save"
+msgstr "Mentés"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress_api.php:551
+msgid "Maps in this post"
+msgstr "Térképek e bejegyzésben"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress_api.php:552
+msgid "There are no maps yet for this post"
+msgstr "Még nincs térkép ehhez a bejegyzéshez"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress_api.php:553
+msgid "Create a new map"
+msgstr "Új térkép létrehozása"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress_api.php:556
+msgid "The starting or ending address could not be found."
+msgstr "A kiindulási- vagy célcím nem található."
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress_api.php:557
+msgid "Google cannot return directions between those addresses.  There is no route between them or the routing information is not available."
+msgstr "A Google nem talált útvonalat a két cím között. Vagy nincs ilyen útvonal, vagy az információ nem érhető el."
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress_api.php:558
+msgid "Unknown error, unable to return directions.  Status code = "
+msgstr "Ismeretlen hiba, nem jeleníthető meg az útvonal. Állapot kód: "
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress_api.php:559
+msgid "Enter address"
+msgstr "Cím megadása"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress_api.php:560
+msgid "No matching address"
+msgstr "Nincs egyező cím"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress_api.php:561
+msgid "Did you mean: "
+msgstr "Erre gondololt:"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress_api.php:563
+msgid "Edit"
+msgstr "Szerkesztés"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress_api.php:565
+msgid "Cancel"
+msgstr "Mégsem"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress_api.php:566
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress_api.php:574
+msgid "Delete"
+msgstr "Törlés"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress_api.php:567
+msgid "View"
+msgstr "Nézet"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress_api.php:568
+msgid "Back"
+msgstr "Vissza"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress_api.php:569
+msgid "Insert into post"
+msgstr "Beszúrás a bejegyzésbe"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress_api.php:570
+msgid "Select a map"
+msgstr "Térkép választása"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress_api.php:572
+msgid "Delete this map marker?"
+msgstr "Térkép jelölő törlése?"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress_api.php:573
+msgid "Delete this map?"
+msgstr "Térkép törlése?"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress_api.php:575
+msgid "Map saved"
+msgstr "Térkép mentve"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress_api.php:576
+msgid "Map deleted"
+msgstr "Térkép törölve"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress_api.php:577
+msgid "Error: AJAX failed!  "
+msgstr "Hiba: AJAX-hívás sikertelen!"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress_api.php:578
+msgid "Click & drag to move this marker"
+msgstr "Fogd-és-vidd módszerrel mozgatható"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress_api.php:579
+msgid "Zoom"
+msgstr "Nagyítás"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/mappress_api.php:580
+msgid "Traffic"
+msgstr "Forgalom"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/sidebar.php:28
+msgid "Subpages"
+msgstr "Aloldalak"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/sidebar.php:35
+msgid "Categories"
+msgstr "Kategóriák"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/sidebar.php:45
+msgid "Permanent link to"
+msgstr "Permalink ehhez"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/sidebar.php:57
+msgid "Archives"
+msgstr "Arhívum"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/pro/mappress_pro.php:28
+msgid "Mappress Home Page"
+msgstr "MapPress honlap"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/pro/mappress_pro.php:245
+msgid "Title:"
+msgstr "Cím:"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/pro/mappress_pro.php:250
+msgid "Map size:"
+msgstr "Térkép mérete:"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/pro/mappress_pro.php:256
+msgid "Zoom (1-19):"
+msgstr "Nagyítás (1-19):"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/pro/mappress_pro.php:258
+msgid "Used when only 1 marker is visible"
+msgstr "Akkor hasznos, ha csak 1 jelölő látható"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/pro/mappress_pro.php:262
+msgid "Show:"
+msgstr "Mutat:"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/pro/mappress_pro.php:268
+msgid "Learn about queries"
+msgstr "Infó a lekérdezésekről"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/pro/mappress_pro.php:272
+msgid "Marker title:"
+msgstr "Jelölő címe:"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/pro/mappress_pro.php:278
+msgid "Link"
+msgstr "Hivatkozás"
+
+#: C:\wamp\www\wordpress\wp-content\plugins\mappress-google-maps-for-wordpress/pro/mappress_pro.php:283
+msgid "Marker body:"
+msgstr "Jelölő teste:"
+

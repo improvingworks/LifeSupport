@@ -1,0 +1,365 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/mappress-google-maps-for-wordpress\n"
+"POT-Creation-Date: 2009-05-21 17:34+0000\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Wouter Kursten <w.kursten@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Dutch\n"
+"X-Poedit-Country: NETHERLANDS\n"
+
+#: mappress.php:177
+msgid "Google error: BAD REQUEST"
+msgstr "GOOGLE FOUT:BAD REQUEST"
+
+#: mappress.php:178
+msgid "Google internal error.  Try again later."
+msgstr "Interne Google fout, probeer het later nog eens."
+
+#: mappress.php:179
+msgid "The starting or ending address was missing."
+msgstr "Het begin of eindpunt ontbreekt."
+
+#: mappress.php:180
+msgid "The starting or ending address could not be found.  Please check that the address is correct and completely entered."
+msgstr "Het begin of eindpunt ontbreekt. Controleer aub of de adressen correct zijn en compleet zijn ingevuld."
+
+#: mappress.php:181
+msgid "Google cannot return those directions for legal or contractual reasons"
+msgstr "Google kan geen route weergeven wegens wettelijke of contractuele redenen."
+
+#: mappress.php:182
+msgid "Google cannot return directions between those addresses.  There is no route between them or the routing information is not available."
+msgstr "Google kan geen route calculeren tussen deze adressen. Er is geen route mogelijk of routeinformatie is niet beschikbaar."
+
+#: mappress.php:183
+msgid "Invalid map API key"
+msgstr "Ongeldige map APIkey"
+
+#: mappress.php:184
+msgid "Your key has issued too many queries in one day."
+msgstr "Uw API key is vandaag te vaak gebruikt."
+
+#: mappress.php:185
+msgid "Unknown error, unable to return directions.  Status code = "
+msgstr "Onbekende fout, niet mogelijk om een route weer te geven. Status code = "
+
+#: mappress.php:186
+#: mappress.php:225
+msgid "No matching address"
+msgstr "Onbekend adres."
+
+#: mappress.php:187
+msgid "Did you mean: "
+msgstr "Bedoelde u:"
+
+#: mappress.php:188
+msgid "Error: your browser does not seem to support the street view Flash player"
+msgstr "Fout: het lijkt erop dat uw browser de street view Flash Player niet ondersteund."
+
+#: mappress.php:189
+msgid "Sorry, no street view data is available for this location"
+msgstr "Sorry, er is geen street view data beschikbaar voor deze lokatie."
+
+#: mappress.php:190
+msgid "Sorry, Google was unable to display the street view in your browser"
+msgstr "Sorry, Google kan street view niet laten zien in uw browser."
+
+#: mappress.php:191
+msgid "Street view"
+msgstr "Street view"
+
+#: mappress.php:192
+msgid "Directions"
+msgstr "Route"
+
+#: mappress.php:193
+#: mappress.php:371
+msgid "Address"
+msgstr "Adres"
+
+#: mappress.php:194
+msgid "to here"
+msgstr "Van hier"
+
+#: mappress.php:195
+msgid "from here"
+msgstr "Naar hier"
+
+#: mappress.php:196
+msgid "Get directions"
+msgstr "Bereken route"
+
+#: mappress.php:222
+msgid "Please enter your API key. Need an API key?  Get one "
+msgstr "Geef alsublieft uw API key in. API key nodig? Maak er één aan "
+
+#: mappress.php:223
+msgid "MapPress could not load google maps.  Either your browser is incompatible or your API key is invalid.  Need an API key?  Get one "
+msgstr "MapPress kan Google Maps niet laden. Uw browser is niet geschikt of de API sleutel is niet valide. API Sleutel nodig? Maak er één aan"
+
+#: mappress.php:224
+msgid "here"
+msgstr "Hier"
+
+#: mappress.php:226
+msgid "That address is already on the map : "
+msgstr "Dat adres staat reeds op de map"
+
+#: mappress.php:227
+msgid "Edit"
+msgstr "Bewerken"
+
+#: mappress.php:228
+msgid "Save"
+msgstr "Bewaren"
+
+#: mappress.php:229
+msgid "Cancel"
+msgstr "Annuleren"
+
+#: mappress.php:230
+msgid "Delete"
+msgstr "Verwijderen"
+
+#: mappress.php:231
+msgid "Please enter an address"
+msgstr "Geef aub een adres op"
+
+#: mappress.php:232
+msgid "Title"
+msgstr "Titel"
+
+#: mappress.php:233
+msgid "Delete this map marker?"
+msgstr "Verwijder markeerpunt?"
+
+#: mappress.php:328
+msgid "MapPress isn't ready yet.  Please enter your Google Maps API Key on the "
+msgstr "MapPress is nog niet klaar. Geef alstublieft uw Google Maps API key op in het "
+
+#: mappress.php:330
+msgid "MapPress options screen."
+msgstr "MapPress optiescherm."
+
+#: mappress.php:351
+msgid "Map options "
+msgstr "Map opties"
+
+#: mappress.php:352
+msgid "(leave blank for default)"
+msgstr "Leeglaten voor standaard"
+
+#: mappress.php:358
+msgid "Width "
+msgstr "Breedte"
+
+#: mappress.php:359
+msgid "Height "
+msgstr "Hoogte"
+
+#: mappress.php:360
+msgid "Zoom "
+msgstr "Zoom "
+
+#: mappress.php:365
+msgid "Insert map in post &raquo;"
+msgstr "Neem op in post &raquo;"
+
+#: mappress.php:374
+msgid "Add address"
+msgstr "Adres Toevoegen"
+
+#: mappress.php:519
+msgid "ACCESS DENIED: You don't have permission to do this."
+msgstr "TOEGANG GEWEIGERD: U heeft niet de benodigde rechten om dit te doen"
+
+#: mappress.php:545
+msgid "Settings saved"
+msgstr "Instellingen opgeslagen"
+
+#: mappress.php:551
+msgid "what's my country code?"
+msgstr "Wat is mijn landcode?"
+
+#: mappress.php:552
+#: mappress.php:557
+msgid "custom field"
+msgstr "Vrij veld"
+
+#: mappress.php:553
+msgid "shortcodes"
+msgstr "Korte codes"
+
+#: mappress.php:554
+msgid "MapPress help"
+msgstr "MapPress help"
+
+#: mappress.php:561
+msgid "MapPress Options"
+msgstr "MapPress Opties"
+
+#: mappress.php:568
+msgid "Google Maps API Key"
+msgstr "Google Maps API Key"
+
+#: mappress.php:581
+msgid "Map defaults"
+msgstr "Map standaarden"
+
+#: mappress.php:584
+msgid "Map width"
+msgstr "Map breedte"
+
+#: mappress.php:584
+msgid "Enter a value in pixels (default is 400)"
+msgstr "Geef een hoeveelheid in pixels (standaard is 400)"
+
+#: mappress.php:585
+msgid "Map height"
+msgstr "Map hoogte"
+
+#: mappress.php:585
+msgid "Enter a value in pixels (default is 300)"
+msgstr "Geef een hoeveelheid in pixels (standaard is 300)"
+
+#: mappress.php:586
+msgid "Address format"
+msgstr "Adres opmaak"
+
+#: mappress.php:587
+msgid "Exactly as entered"
+msgstr "Precies zoals ingegeven"
+
+#: mappress.php:587
+msgid "Corrected address"
+msgstr "Gecorrigeerd adres"
+
+#: mappress.php:588
+msgid "Corrected address without country"
+msgstr "Gecorrigeerd adres zonder land"
+
+#: mappress.php:588
+msgid "Corrected address without \"USA\""
+msgstr "Gecorrigeerd adres zonder \"USA'\""
+
+#: mappress.php:591
+msgid "Advanced Settings"
+msgstr "Geavanceerde instellingen"
+
+#: mappress.php:594
+msgid "Country code for searches"
+msgstr "Landcode voor zoekopdrachten"
+
+#: mappress.php:594
+msgid "Enter a country code to use as a default when searching for an address."
+msgstr "Geef een landcode in die standaard gebruikt wordt bij zoekopdrachten"
+
+#: mappress.php:595
+msgid "Big map controls"
+msgstr "Grote mapbediening"
+
+#: mappress.php:595
+msgid "Check to show large map controls; uncheck for a small zoom control instead"
+msgstr "Selecteer voor grote mapbediening; de-selecteer voor een kleine zoomknop."
+
+#: mappress.php:596
+msgid "Map types button"
+msgstr "map types knop"
+
+#: mappress.php:596
+msgid "Check to enable the \"map types\" button on the map"
+msgstr "Selecteer om de \"map types\" knop op de map te laten zien"
+
+#: mappress.php:597
+msgid "Initial map type"
+msgstr "Initieel map type"
+
+#: mappress.php:599
+msgid "Choose the map type to use when the map is first displayed"
+msgstr "Kies het maptype dat gebruikt moet worden als de map de eerste keer bekeken wordt."
+
+#: mappress.php:600
+msgid "Traffic button"
+msgstr "Verkeer knop"
+
+#: mappress.php:600
+msgid "Check to enable the real-time traffic button on the map"
+msgstr "Selecteer om de live verkeersknop op de map te laten zien"
+
+#: mappress.php:601
+msgid "Street view link"
+msgstr "Street View koppeling"
+
+#: mappress.php:601
+msgid "Check to enable the \"street view\" link for map markers"
+msgstr "Selecteer om de \"street view\" link weer te geven"
+
+#: mappress.php:602
+msgid "Initial marker"
+msgstr "Initieel markeerpunt"
+
+#: mappress.php:602
+msgid "Check to open the first marker when the map is displayed."
+msgstr "Selecteer om de eerste marker te openen als de map bekeken wordt."
+
+#: mappress.php:603
+msgid "GoogleBar"
+msgstr "GoogleBar"
+
+#: mappress.php:603
+msgid "Check to show the \"GoogleBar\" search box for local business listings."
+msgstr "Selecteer om de  \"GoogleBar\" zoekknop voor lokale bedrijven weer te geven"
+
+#: mappress.php:604
+msgid "MapPress link"
+msgstr "MapPress link"
+
+#: mappress.php:604
+msgid "Enable the \"powered by\" link."
+msgstr "Selecteer om de  \"powered by\" link weer te geven."
+
+#: mappress.php:605
+msgid "Icons URL"
+msgstr "Iconen URL"
+
+#: mappress.php:605
+msgid "Leave blank for default:"
+msgstr "Leeglaten voor standaard"
+
+#: mappress.php:613
+msgid "Default map icon: "
+msgstr "Standaard map icoon:"
+
+#: mappress.php:639
+msgid "Save Changes"
+msgstr "Veranderingen opslaan"
+
+#: mappress.php:726
+msgid "Automatic"
+msgstr "Automatisch"
+
+#: mappress.php:726
+msgid "1 - zoomed out"
+msgstr "1 - Uitgezoomd"
+
+#: mappress.php:728
+msgid "20 - zoomed in"
+msgstr "20 - Ingezoomd"
+
+#: mappress.php:915
+msgid "Close"
+msgstr "Sluiten"
+
+#: mappress.php:941
+msgid "Get Directions"
+msgstr "Bereken route"
+
+#: mappress.php:942
+msgid "Print Directions"
+msgstr "Print route"
+

@@ -1,0 +1,310 @@
+# MAPPRESS
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/mappress-google-maps-for-wordpress\n"
+"POT-Creation-Date: 2009-05-08 20:55+0000\n"
+"PO-Revision-Date: 2010-09-16 15:14-0800\n"
+"Last-Translator: tess <trousdale2120@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: mappress.php:133
+#, php-format
+msgid "MapPress has changed with this version.  You must re-enter your maps.  Please see the note on the %1$sMapPress options screen%2$s"
+msgstr "MapPress已有新版本,請重新輸入你的地圖.詳情請閱讀MapPress選項畫面."
+
+#: mappress.php:173
+msgid "Google error: BAD REQUEST"
+msgstr "Google 錯誤:不正確要求."
+
+#: mappress.php:174
+msgid "Google internal error.  Try again later."
+msgstr "Google內部錯誤.請稍後再試."
+
+#: mappress.php:175
+msgid "The starting or ending address was missing."
+msgstr "缺少起始或終點地址."
+
+#: mappress.php:176
+msgid "The starting or ending address could not be found.  Please check that the address is correct and completely entered."
+msgstr "找不到起始或終點地址.請重新確認正確地址."
+
+#: mappress.php:177
+msgid "Google cannot return those directions for legal or contractual reasons"
+msgstr "基於法令或合約因素,Google無法提供相關資訊."
+
+#: mappress.php:178
+msgid "Google cannot return directions between those addresses.  There is no route between them or the routing information is not available."
+msgstr "Google無法提供地址間之所需路線(地址間無道路或是路程資料不存在)."
+
+#: mappress.php:179
+msgid "Invalid map API key"
+msgstr "地址的API鍵不正確."
+
+#: mappress.php:180
+msgid "Your key has issued too many queries in one day."
+msgstr "你的查詢次數已超過Google的當日限制."
+
+#: mappress.php:181
+msgid "Unknown error, unable to return directions.  Status code = "
+msgstr "不明錯誤,無法回覆路線.狀態碼="
+
+#: mappress.php:182
+#: mappress.php:223
+msgid "No matching address"
+msgstr "找不到符合地址."
+
+#: mappress.php:183
+msgid "Did you mean: "
+msgstr "你是指:"
+
+#: mappress.php:184
+msgid "Error: your browser does not seem to support the street view Flash player"
+msgstr "錯誤：你的瀏覽器並不支援街頭觀的Flash player."
+
+#: mappress.php:185
+msgid "Sorry, no street view data is available for this location"
+msgstr "很抱歉.此地址的街道觀並不存在."
+
+#: mappress.php:186
+msgid "Sorry, Google was unable to display the street view in your browser"
+msgstr "很抱歉.Google無法使用你的瀏覽器來展現街道觀."
+
+#: mappress.php:187
+msgid "Street view"
+msgstr "街道觀"
+
+#: mappress.php:188
+msgid "to here"
+msgstr "到這裏"
+
+#: mappress.php:189
+msgid "from here"
+msgstr "從這裏"
+
+#: mappress.php:190
+msgid "Get directions"
+msgstr "取得路線"
+
+#: mappress.php:220
+msgid "Please enter your API key. Need an API key?  Get one "
+msgstr "請輸入你的API鍵.若無API鍵,請向Google申請."
+
+#: mappress.php:221
+msgid "MapPress could not load google maps.  Either your browser is incompatible or your API key is invalid.  Need an API key?  Get one "
+msgstr "MapPress無法下載Google地圖.可能是你的瀏覽器不相容或是API鍵不正確.若無API鍵,請向Google申請."
+
+#: mappress.php:222
+msgid "here"
+msgstr "這裏"
+
+#: mappress.php:224
+msgid "That address is already on the map : "
+msgstr "此地址已存在地圖上"
+
+#: mappress.php:225
+msgid "Edit"
+msgstr "編輯"
+
+#: mappress.php:226
+msgid "Save"
+msgstr "儲存"
+
+#: mappress.php:227
+msgid "Cancel"
+msgstr "取消"
+
+#: mappress.php:228
+msgid "Delete"
+msgstr "刪除"
+
+#: mappress.php:229
+msgid "Please enter an address"
+msgstr "請輸入地址"
+
+#: mappress.php:323
+msgid "MapPress isn't ready yet.  Please enter your Google Maps API Key on the "
+msgstr "MapPress還未準備好,請重新輸入你的Google地圖API鍵在"
+
+#: mappress.php:325
+msgid "MapPress options screen."
+msgstr "MapPress Options畫面"
+
+#: mappress.php:355
+msgid "Map options "
+msgstr "地圖選項"
+
+#: mappress.php:356
+msgid "(leave blank for default)"
+msgstr "(留白來使用內定值)"
+
+#: mappress.php:362
+msgid "Width "
+msgstr "寬度"
+
+#: mappress.php:363
+msgid "Height "
+msgstr "高度"
+
+#: mappress.php:364
+msgid "Zoom (1-20) "
+msgstr "放大縮小(1-20)"
+
+#: mappress.php:367
+msgid "Insert map in post &raquo;"
+msgstr "將地圖加入文章中"
+
+#: mappress.php:380
+msgid "Address"
+msgstr "地址"
+
+#: mappress.php:381
+msgid "Caption"
+msgstr "標籤"
+
+#: mappress.php:396
+msgid "Add address"
+msgstr "加入地址"
+
+#: mappress.php:397
+msgid "Clear form"
+msgstr "清除表格"
+
+#: mappress.php:584
+msgid "ACCESS DENIED: You don't have permission to do this."
+msgstr "拒絕請求：你並無許可"
+
+#: mappress.php:614
+msgid "Settings saved"
+msgstr "儲存設定"
+
+#: mappress.php:620
+msgid "what's my country code?"
+msgstr "請輸入國碼"
+
+#: mappress.php:621
+#: mappress.php:626
+msgid "custom field"
+msgstr "客製欄位"
+
+#: mappress.php:622
+msgid "shortcodes"
+msgstr "縮碼"
+
+#: mappress.php:623
+msgid "MapPress help"
+msgstr "MapPress幫幫我"
+
+#: mappress.php:644
+msgid "MapPress Options"
+msgstr "MapPress 選項畫面"
+
+#: mappress.php:651
+msgid "Google Maps API Key"
+msgstr "Google地圖API鍵"
+
+#: mappress.php:664
+msgid "Map defaults"
+msgstr "地圖內定值"
+
+#: mappress.php:667
+msgid "Map width"
+msgstr "地圖寬度"
+
+#: mappress.php:667
+msgid "Enter a value in pixels (default is 400)"
+msgstr "輸入畫素值(內定值為400)"
+
+#: mappress.php:668
+msgid "Map height"
+msgstr "地圖高度"
+
+#: mappress.php:668
+msgid "Enter a value in pixels (default is 300)"
+msgstr "輸入畫素值(內定值為300)"
+
+#: mappress.php:669
+msgid "Map zoom (1-20)"
+msgstr "地圖放大縮小(1-20)"
+
+#: mappress.php:669
+msgid "1=fully zoomed out, 20=fully zoomed in (default is 15)"
+msgstr "1為最小縮小值,20為最高放大值(內定值為15)"
+
+#: mappress.php:672
+msgid "Advanced Settings"
+msgstr "進階設定"
+
+#: mappress.php:675
+msgid "Country code for searches"
+msgstr "國碼查詢"
+
+#: mappress.php:675
+msgid "Enter a country code to use as a default when searching for an address."
+msgstr "搜尋地址時請輸入內定國碼"
+
+#: mappress.php:676
+msgid "Big map controls"
+msgstr "大圖控制"
+
+#: mappress.php:676
+msgid "Check to show large map controls; uncheck for a small zoom control instead"
+msgstr "打勾以顯示大地圖控制,不打勾則使用小变焦控制"
+
+#: mappress.php:677
+msgid "Map types button"
+msgstr "地圖類型按鈕"
+
+#: mappress.php:677
+msgid "Check to enable the \"map types\" button on the map"
+msgstr "打勾以啟始地圖上之\"地圖類型\"按鈕."
+
+#: mappress.php:678
+msgid "Initial map type"
+msgstr "最初的地圖類型"
+
+#: mappress.php:680
+msgid "Choose the map type to use when the map is first displayed"
+msgstr "當地圖剛顯示時,請選擇欲使用之地圖類型"
+
+#: mappress.php:683
+msgid "Initial marker"
+msgstr "最初的標誌"
+
+#: mappress.php:683
+msgid "Check to open the first marker when the map is displayed."
+msgstr "當地圖剛顯示時, 打勾以開啟第一個標誌."
+
+#: mappress.php:684
+msgid "GoogleBar"
+msgstr "GoogleBar"
+
+#: mappress.php:684
+msgid "Check to show the \"GoogleBar\" search box for local business listings."
+msgstr "尋找當地店家目錄請打勾以顯示\"GoogleBar\"搜尋工具箱"
+
+#: mappress.php:685
+msgid "Disable MapPress link"
+msgstr "使MapPress 的連結失效"
+
+#: mappress.php:685
+msgid "Enable the \"powered by\" link."
+msgstr "啟動\"powered by\"連結"
+
+#: mappress.php:693
+msgid "Default map icon: "
+msgstr "內定地圖圖案"
+
+#: mappress.php:719
+msgid "Save Changes"
+msgstr "儲存改變"
+
+#~ msgid "Save address"
+#~ msgstr "儲存地址"
+
+#~ msgid " help"
+#~ msgstr "幫忙我"

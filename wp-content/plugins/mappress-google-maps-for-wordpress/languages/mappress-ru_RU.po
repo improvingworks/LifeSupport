@@ -1,0 +1,343 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Mappress google maps for wordpress\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/mappress-google-maps-for-wordpress\n"
+"POT-Creation-Date: 2009-05-30 20:39+0000\n"
+"PO-Revision-Date: 2010-08-18 02:01+0300\n"
+"Last-Translator: Alexander Chermyanin <alexanderchermyanin@gmail.com>\n"
+"Language-Team:  <alexanderchermyanin@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIAN FEDERATION\n"
+"X-Poedit-Basepath: w:\\home\\local\\kennel\\wp-content\\plugins\\mappress-google-maps-for-wordpress \n"
+"X-Poedit-SearchPath-0: w:\\home\\local\\kennel\\wp-content\\plugins\\mappress-google-maps-for-wordpress\n"
+
+#: mappress.php:137
+msgid "Google error: BAD REQUEST"
+msgstr "Ошибка Google: Неправильный запрос (BAD REQUEST)"
+
+#: mappress.php:138
+msgid "Google internal error.  Try again later."
+msgstr "Внутренняя ошибка Google. Попробуйте еще раз."
+
+#: mappress.php:139
+msgid "The starting or ending address was missing."
+msgstr "Начальный или конечный адреса были потеряны."
+
+#: mappress.php:140
+msgid "The starting or ending address could not be found.  Please check that the address is correct and completely entered."
+msgstr "Начальный или конечный адрес не найдены. Пожалуйста, проверьте правильность адресов и повторите ввод."
+
+#: mappress.php:141
+msgid "Google cannot return those directions for legal or contractual reasons"
+msgstr "Google не может проложить маршрут по юридеическим или договорным причинам "
+
+#: mappress.php:142
+msgid "Google cannot return directions between those addresses.  There is no route between them or the routing information is not available."
+msgstr "Google не может проложить маршрут между адресами. Между ними нет дорог или информация о них недоступна."
+
+#: mappress.php:143
+msgid "Invalid map API key"
+msgstr "Неправильный API key карты"
+
+#: mappress.php:144
+msgid "Your key has issued too many queries in one day."
+msgstr "Через API key сегодня было сделано слишком много запросов."
+
+#: mappress.php:145
+msgid "Unknown error, unable to return directions.  Status code = "
+msgstr "Неизвестная ошибка, попробуйте еще раз. Код ошибки = "
+
+#: mappress.php:146
+#: mappress.php:185
+msgid "No matching address"
+msgstr "Адреса не найдены"
+
+#: mappress.php:147
+msgid "Did you mean: "
+msgstr "Возможно вы имели ввиду:"
+
+#: mappress.php:148
+msgid "Error: your browser does not seem to support the street view Flash player"
+msgstr "Ошибка: ваш браузер не поддерживает Flash player"
+
+#: mappress.php:149
+msgid "Sorry, no street view data is available for this location"
+msgstr ""
+
+#: mappress.php:150
+msgid "Sorry, Google was unable to display the street view in your browser"
+msgstr "Извините, Google не может показать street view в вашем браузере"
+
+#: mappress.php:151
+msgid "Street view"
+msgstr ""
+
+#: mappress.php:152
+#: mappress.php:630
+msgid "Directions"
+msgstr "Маршруты"
+
+#: mappress.php:153
+#: mappress.php:386
+msgid "Address"
+msgstr "Адрес"
+
+#: mappress.php:154
+msgid "to here"
+msgstr "Сюда"
+
+#: mappress.php:155
+msgid "from here"
+msgstr "Отсюда"
+
+#: mappress.php:156
+msgid "Get directions"
+msgstr "Проложить маршруты"
+
+#: mappress.php:182
+msgid "Please enter your API key. Need an API key?  Get one "
+msgstr "Пожалуйста введите ваш API key. Нужен API key? Получить"
+
+#: mappress.php:183
+msgid "MapPress could not load google maps.  Either your browser is incompatible or your API key is invalid.  Need an API key?  Get one "
+msgstr "MapPress не может загрузить карту Google. Ваш браузер не поддерживается или ваш API key неработает. Нужен API key? Получить"
+
+#: mappress.php:184
+msgid "here"
+msgstr "сдесь"
+
+#: mappress.php:186
+msgid "That address is already on the map : "
+msgstr "Этот адрес уже есть на карте: "
+
+#: mappress.php:187
+msgid "Edit"
+msgstr "Редактировать"
+
+#: mappress.php:188
+msgid "Save"
+msgstr "Сохранить"
+
+#: mappress.php:189
+msgid "Cancel"
+msgstr "Отмена"
+
+#: mappress.php:190
+msgid "Delete"
+msgstr "Удалить"
+
+#: mappress.php:191
+msgid "Please enter an address"
+msgstr "Пожалуйста, введите адрес"
+
+#: mappress.php:192
+msgid "Title"
+msgstr "Заголовок"
+
+#: mappress.php:193
+msgid "Delete this map marker?"
+msgstr "Удалить метку с карты?"
+
+#: mappress.php:194
+msgid "Please select an icon or click to close: "
+msgstr "Выберите метку или кликните для закрытия:"
+
+#: mappress.php:332
+msgid "MapPress isn't ready yet.  Please enter your Google Maps API Key on the "
+msgstr "MapPress не работает. Пожалуйста, введите Google Maps API Key на "
+
+#: mappress.php:334
+msgid "MapPress options screen."
+msgstr "Страница настроек MapPress."
+
+#: mappress.php:366
+msgid "Map options "
+msgstr "Настройки карты"
+
+#: mappress.php:367
+msgid "(leave blank for default)"
+msgstr "(оставьте пустым для значения по умолчанию)"
+
+#: mappress.php:373
+msgid "Width "
+msgstr "Ширина"
+
+#: mappress.php:374
+msgid "Height "
+msgstr "Высота"
+
+#: mappress.php:375
+msgid "Zoom "
+msgstr "Масштаб"
+
+#: mappress.php:380
+msgid "Insert map in post &raquo;"
+msgstr "Вставить карту в запись &raquo; "
+
+#: mappress.php:389
+msgid "Add address"
+msgstr "Добавить адрес"
+
+#: mappress.php:435
+msgid "Automatic"
+msgstr ""
+
+#: mappress.php:435
+msgid "1 - zoomed out"
+msgstr "1 - zoomed out"
+
+#: mappress.php:437
+msgid "20 - zoomed in"
+msgstr ""
+
+#: mappress.php:560
+msgid "ACCESS DENIED: You don't have permission to do this."
+msgstr "Доступ запрещен: У вас нет прав"
+
+#: mappress.php:586
+msgid "Settings saved"
+msgstr "Настройки сохранены"
+
+#: mappress.php:591
+msgid "what's my country code?"
+msgstr "что такое код страны?"
+
+#: mappress.php:596
+msgid "MapPress Options"
+msgstr "Настройки MapPress"
+
+#: mappress.php:598
+msgid "MapPress help"
+msgstr "Справка по MapPress"
+
+#: mappress.php:603
+msgid "Google Maps API Key"
+msgstr ""
+
+#: mappress.php:616
+msgid "Map defaults"
+msgstr ""
+
+#: mappress.php:619
+msgid "Map width"
+msgstr "Ширина карты"
+
+#: mappress.php:619
+msgid "Enter a value in pixels (default is 400)"
+msgstr "Введите значение в пикселях (по умолчанию 400)"
+
+#: mappress.php:620
+msgid "Map height"
+msgstr "Высота карты"
+
+#: mappress.php:620
+msgid "Enter a value in pixels (default is 300)"
+msgstr "Введите значение в пикселях (по умолчанию 300)"
+
+#: mappress.php:621
+msgid "Address format"
+msgstr "Формат адреса"
+
+#: mappress.php:622
+msgid "Exactly as entered"
+msgstr "Точное совпадение"
+
+#: mappress.php:622
+msgid "Corrected address"
+msgstr "Исправленный адрес"
+
+#: mappress.php:626
+msgid "Advanced Settings"
+msgstr "Расширенные настройки"
+
+#: mappress.php:629
+msgid "Country code for searches"
+msgstr "Коды стран для поиска"
+
+#: mappress.php:629
+msgid "Enter a country code to use as a default when searching for an address."
+msgstr "Введите код страны которая будет использоваться для поиска адреса"
+
+#: mappress.php:630
+msgid "Check to enable directions to/from map markers"
+msgstr "Проверить возможность прокладки маршрута между маркерами на карте"
+
+#: mappress.php:630
+msgid "Big map controls"
+msgstr ""
+
+#: mappress.php:630
+msgid "Check to show large map controls; uncheck for a small zoom control instead"
+msgstr ""
+
+#: mappress.php:631
+msgid "Map types button"
+msgstr "Кнопки типов карт"
+
+#: mappress.php:631
+msgid "Check to enable the \"map types\" button on the map"
+msgstr "Отметьте, чтобы разрешить выбор типов карт"
+
+#: mappress.php:632
+msgid "Initial map type"
+msgstr "Первоначальный вид карты"
+
+#: mappress.php:634
+msgid "Choose the map type to use when the map is first displayed"
+msgstr "Выберите тип карты, который будет отображаться первым"
+
+#: mappress.php:637
+msgid "Initial marker"
+msgstr ""
+
+#: mappress.php:637
+msgid "Check to open the first marker when the map is displayed."
+msgstr ""
+
+#: mappress.php:638
+msgid "GoogleBar"
+msgstr ""
+
+#: mappress.php:638
+msgid "Check to show the \"GoogleBar\" search box for local business listings."
+msgstr ""
+
+#: mappress.php:639
+msgid "MapPress link"
+msgstr ""
+
+#: mappress.php:639
+msgid "Enable the \"powered by\" link."
+msgstr "Разрешить ссылку на разработчика"
+
+#: mappress.php:648
+msgid "Default map icon: "
+msgstr "Маркер:"
+
+#: mappress.php:652
+msgid "(click the icon to choose)"
+msgstr "(кликните на значёк для выбора)"
+
+#: mappress.php:674
+msgid "Save Changes"
+msgstr "Сохранить изменения"
+
+#: mappress.php:923
+msgid "Close"
+msgstr "Закрыть"
+
+#: mappress.php:949
+msgid "Get Directions"
+msgstr "Проложить маршрут"
+
+#: mappress.php:950
+msgid "Print Directions"
+msgstr "Печать маршрута"
+
