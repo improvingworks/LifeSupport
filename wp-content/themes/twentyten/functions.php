@@ -481,3 +481,63 @@ function twentyten_posted_in() {
 	);
 }
 endif;
+
+if ( ! function_exists( 'lifesupport_get_supportgroup_fields' ) ) :
+
+/**
+ * Defines the key used in the Custom Fields section for the start date of the event.
+ */
+define('SUPPORTGROUP_STARTDATE', 'Start Date');
+
+/**
+ * Defines the key used in the Custom Fields section for the end date of the event.
+ */
+define('SUPPORTGROUP_ENDDATE', 'End Date');
+
+/**
+ * Defines the key used in the Custom Fields section for the location address.
+ */
+define('SUPPORTGROUP_LOCADDRESS', 'Location Address');
+
+/**
+ * Defines the key used in the Custom Fields section for the location name.
+ */
+define('SUPPORTGROUP_LOCNAME', 'Location Name');
+
+/**
+ * Defines the key used in the Custom Fields section for the times.
+ */
+define('SUPPORTGROUP_TIMES', 'Times');
+
+/**
+ * Defines the key used in the Custom Fields section for the website URL.
+ */
+define('SUPPORTGROUP_WEBSITE', 'Website');
+
+/**
+ * Displays all custom, default fields associated with a support group.
+ *
+ * @since Twenty Ten 1.0
+ */
+function lifesupport_get_supportgroup_fields() {
+    $dateStart = get_post_meta( get_the_ID(), SUPPORTGROUP_STARTDATE, true);
+    $dateEnd = get_post_meta( get_the_ID(), SUPPORTGROUP_ENDDATE, true);
+    $locationAddress = get_post_meta( get_the_ID(), SUPPORTGROUP_LOCADDRESS, true);
+    $locationName = get_post_meta( get_the_ID(), SUPPORTGROUP_LOCNAME, true);
+    $times= get_post_meta( get_the_ID(), SUPPORTGROUP_TIMES, true);
+
+?>
+    <ul class="post-meta">
+    <?php if ($times != ''): ?>
+        <li>When: <strong><?php echo $times; ?></strong></li>
+    <?php endif; ?>
+    <?php if ($dateStart != '' && $dateEnd != ''): ?>
+        <li>Starts <strong><?php echo $dateStart; ?></strong> and runs thru <strong><?php echo $dateEnd; ?></strong></li>
+    <?php endif; ?>
+    <?php if ($locationName != ''): ?>
+        <li>Location: <strong><?php echo $locationName; ?></strong></li>
+    <?php endif; ?>
+    </ul>
+<?php
+}
+endif;
