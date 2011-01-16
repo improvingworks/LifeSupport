@@ -526,18 +526,41 @@ function lifesupport_get_supportgroup_fields() {
     $locationName = get_post_meta( get_the_ID(), SUPPORTGROUP_LOCNAME, true);
     $times= get_post_meta( get_the_ID(), SUPPORTGROUP_TIMES, true);
 
+    if ($dateStart || $dateEnd || $locationAddress || $locationName || $times) {
 ?>
     <ul class="post-meta">
     <?php if ($times != ''): ?>
-        <li>When: <strong><?php echo $times; ?></strong></li>
+        <li>When: <strong><?php echo htmlentities($times); ?></strong></li>
     <?php endif; ?>
     <?php if ($dateStart != '' && $dateEnd != ''): ?>
-        <li>Starts <strong><?php echo $dateStart; ?></strong> and runs thru <strong><?php echo $dateEnd; ?></strong></li>
+        <li>Starts <strong><?php echo htmlentities($dateStart); ?></strong> and runs thru <strong><?php echo htmlentities($dateEnd); ?></strong></li>
     <?php endif; ?>
     <?php if ($locationName != ''): ?>
-        <li>Location: <strong><?php echo $locationName; ?></strong></li>
+        <li>Location: <strong><?php echo htmlentities($locationName); ?></strong></li>
     <?php endif; ?>
     </ul>
 <?php
+    }
+}
+
+/**
+ * @return void
+ */
+function lifesupport_get_supportgroup_fields_short() {
+    $locationName = get_post_meta( get_the_ID(), SUPPORTGROUP_LOCNAME, true);
+    $times= get_post_meta( get_the_ID(), SUPPORTGROUP_TIMES, true);
+
+    if ($locationName || $times) {
+?>
+    <span class="post-meta">
+<?php if ($times): ?>
+        When: <strong><?php echo htmlentities($times); ?></strong> &nbsp;
+<?php endif; ?>
+<?php if ($locationName): ?>
+        Where: <strong><?php echo htmlentities($locationName); ?></strong>
+<?php endif; ?>
+    </span>
+<?php
+    }
 }
 endif;

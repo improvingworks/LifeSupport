@@ -23,16 +23,15 @@
 	</div>
 
 	
-	<div class="container_16">
-	<div class="grid_10">
-		<?php query_posts('page_id=116'); ?>
+<div class="container_16 additionalinfo-box">
+	<div class="grid_9">
+		<?php query_posts('page_id=118'); ?>
 		<?php while (have_posts()): the_post(); ?>
 			<?php the_content(); ?>
 		<?php endwhile; ?>
 	</div>
-
-	<div class="grid_6">
-		<?php query_posts('page_id=118'); ?>
+	<div class="grid_6 prefix_1">
+		<?php query_posts('page_id=116'); ?>
 		<?php while (have_posts()): the_post(); ?>
 			<?php the_content(); ?>
 		<?php endwhile; ?>

@@ -1396,3 +1396,7 @@ code {
         font-weight: bold;
         font-family: helvetica;
 }
+
+.additionalinfo-box{
+        margin-top: 20px;
+}
