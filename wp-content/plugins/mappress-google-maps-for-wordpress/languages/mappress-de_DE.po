@@ -1,0 +1,284 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: mappress\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-05-02 15:58-0800\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Stefan Schirmer <ss@roeder-sommer.de>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: mappress.php:134
+#, php-format
+msgid "MapPress has changed with this version.  You must re-enter your maps.  Please see the note on the %1$sMapPress options screen%2$s"
+msgstr "Die MapPress Version hat sich geändert. Sie müssen Ihre Karten neu einfügen. Beachten Sie die Hinweise in der MapPress Konfiguration."
+
+#: mappress.php:174
+msgid "Google error: BAD REQUEST"
+msgstr "Google Fehler: BAD REQUEST"
+
+#: mappress.php:175
+msgid "Google internal error.  Try again later."
+msgstr "Interner Google Fehler. Bitte versuchen Sie es später noch einmal."
+
+#: mappress.php:176
+msgid "The starting or ending address was missing."
+msgstr "Die Start- oder Zieladresse fehlt."
+
+#: mappress.php:177
+msgid "The starting or ending address could not be found.  Please check that the address is correct and completely entered."
+msgstr "Die Start oder Zieladresse wurde nicht gefunden. Bitte überprüfen Sie die vollständige und richtige Eingabe."
+
+#: mappress.php:178
+msgid "Google cannot return those directions for legal or contractual reasons"
+msgstr "Google die gewünschte Wegbeschreibung aus rechtlichen Gründen  nicht ausführen."
+
+#: mappress.php:179
+msgid "Google cannot return directions between those addresses.  There is no route between them or the routing information is not available."
+msgstr "Google konnte keine Wegbeschreibung zwischen den angegebenen Adressen finden. Die Adressen befinden sich am selben Ort oder es ist keine Streckeninformation verfügbar."
+
+#: mappress.php:180
+msgid "Invalid map API key"
+msgstr "Ungültiger Google Maps API Key"
+
+#: mappress.php:181
+msgid "Your key has issued too many queries in one day."
+msgstr "Mit Ihrem API Key wurden zuviele Anfragen innerhalb eines Tages verursacht."
+
+#: mappress.php:182
+msgid "Unknown error, unable to return directions.  Status code = "
+msgstr "Unbekannter Fehler bei der Routenberechnung. Status code ="
+
+#: mappress.php:183
+#: mappress.php:221
+msgid "No matching address"
+msgstr "Keine passende Adresse."
+
+#: mappress.php:184
+msgid "Did you mean: "
+msgstr "Meinten Sie:"
+
+#: mappress.php:185
+msgid "Error: your browser does not seem to support the street view Flash player"
+msgstr "Fehler: Ihr Browser unterstützt den Street View Flash Player anscheinend nicht."
+
+#: mappress.php:186
+msgid "Sorry, no street view data is available for this location"
+msgstr "Für diesen Ort liegen keine Street View Daten vor."
+
+#: mappress.php:187
+msgid "Sorry, Google was unable to display the street view in your browser"
+msgstr "Leider kann Google in Ihrem Browser Street View nicht anzeigen."
+
+#: mappress.php:188
+msgid "Street view"
+msgstr "Street view"
+
+#: mappress.php:189
+msgid "to here"
+msgstr "hierhin:"
+
+#: mappress.php:190
+msgid "from here"
+msgstr "von hier:"
+
+#: mappress.php:191
+msgid "Get directions"
+msgstr "Wegbeschreibung"
+
+#: mappress.php:218
+msgid "Please enter your API key. Need an API key?  Get one "
+msgstr "Bitte geben Sie Ihren Google API Key ein. Sie brauchen noch einen? Schauen Sie hier:"
+
+#: mappress.php:219
+msgid "MapPress could not load google maps.  Either your browser is incompatible or your API key is invalid.  Need an API key?  Get one "
+msgstr "MapPress konnte Google Maps nicht laden. Ihr Browser ist entweder inkompatibel oder der angegebene API Key ist ungültig. Falls Sie einen API Key brauchen, schauen Sie bitte"
+
+#: mappress.php:220
+msgid "here"
+msgstr "hier"
+
+#: mappress.php:222
+msgid "That address is already on the map : "
+msgstr "Diese Adresse ist bereits auf der Karte vorhanden:"
+
+#: mappress.php:311
+msgid "MapPress isn't ready yet.  Please enter your Google Maps API Key on the "
+msgstr "MapPress ist noch nicht fertig eingerichtet. Bitte geben Sie Ihren API Key "
+
+#: mappress.php:313
+msgid "MapPress options screen."
+msgstr "im MapPress Einstellungsfeld an."
+
+#: mappress.php:343
+msgid "Map options "
+msgstr "Karten Optionen"
+
+#: mappress.php:344
+msgid "(leave blank for default)"
+msgstr "(für Standardeinstellung leer lassen)"
+
+#: mappress.php:350
+msgid "Width "
+msgstr "Breite"
+
+#: mappress.php:351
+msgid "Height "
+msgstr "Höhe"
+
+#: mappress.php:352
+msgid "Zoom (1-20) "
+msgstr "Zoom (1-20) "
+
+#: mappress.php:355
+msgid "Insert map in post &raquo;"
+msgstr "Karte einfügen &raquo;"
+
+#: mappress.php:368
+msgid "Address"
+msgstr "Adresse"
+
+#: mappress.php:369
+msgid "Caption"
+msgstr "Beschreibung"
+
+#: mappress.php:384
+msgid "Save address"
+msgstr "Adresse speichern"
+
+#: mappress.php:385
+msgid "Clear form"
+msgstr "Felder zurücksetzen"
+
+#: mappress.php:564
+msgid "ACCESS DENIED: You don't have permission to do this."
+msgstr "ACCESS DENIED: Sie haben nicht die nötigen Zugriffsrechte."
+
+#: mappress.php:590
+msgid "Settings saved"
+msgstr "Einstellungen gespeichert."
+
+#: mappress.php:597
+msgid "what's my country code?"
+msgstr "wie ist mein Ländercode?"
+
+#: mappress.php:598
+#: mappress.php:603
+msgid "custom field"
+msgstr "Benutzerdefiniertes Feld"
+
+#: mappress.php:599
+msgid "shortcodes"
+msgstr "Kürzel"
+
+#: mappress.php:600
+msgid "MapPress help"
+msgstr "MapPress Hilfe"
+
+#: mappress.php:621
+msgid "MapPress Options"
+msgstr "MapPress Einstellungen"
+
+#: mappress.php:628
+msgid "Google Maps API Key"
+msgstr "Google Maps API Key"
+
+#: mappress.php:641
+msgid "Map defaults"
+msgstr "Standardeinstellungen"
+
+#: mappress.php:644
+msgid "Map width"
+msgstr "Karten Breite"
+
+#: mappress.php:644
+msgid "Enter a value in pixels (default is 400)"
+msgstr "Wert in Pixel angeben (voreingestellt: 400px)"
+
+#: mappress.php:645
+msgid "Map height"
+msgstr "Karten Höhe"
+
+#: mappress.php:645
+msgid "Enter a value in pixels (default is 300)"
+msgstr "Wert in Pixel angeben (voreingestellt: 300px)"
+
+#: mappress.php:646
+msgid "Map zoom (1-20)"
+msgstr "Zoomstufe (1-20)"
+
+#: mappress.php:646
+msgid "1=fully zoomed out, 20=fully zoomed in (default is 15)"
+msgstr "1=kleinster Zoomwinkel, 20=ganz nah herangezoomt (voreingestellt: 15)"
+
+#: mappress.php:649
+msgid "Advanced Settings"
+msgstr "Erweiterte Einstellungen"
+
+#: mappress.php:652
+msgid "Country code for searches"
+msgstr "Ländercode für die Suche"
+
+#: mappress.php:652
+msgid "Enter a country code to use as a default when searching for an address."
+msgstr "Tragen Sie einen Ländercode als Standard für die Adress-Suche ein."
+
+#: mappress.php:653
+msgid "Big map controls"
+msgstr "große Kartenkontrolle-Symbole"
+
+#: mappress.php:653
+msgid "Check to show large map controls; uncheck for a small zoom control instead"
+msgstr "bei gesetztem Haken werden große Symbole angezeigt"
+
+#: mappress.php:654
+msgid "Map types button"
+msgstr "Auswahlfeld für Kartentyp"
+
+#: mappress.php:654
+msgid "Check to enable the \"map types\" button on the map"
+msgstr "Haken setzten um das Auswahlfeld anzuzeigen"
+
+#: mappress.php:655
+msgid "Initial map type"
+msgstr "Startansicht"
+
+#: mappress.php:657
+msgid "Choose the map type to use when the map is first displayed"
+msgstr "Wählen Sie, wie die Karte beim ersten Aufruf angezeigt wird"
+
+#: mappress.php:660
+msgid "Initial marker"
+msgstr "Start Marker"
+
+#: mappress.php:660
+msgid "Check to open the first marker when the map is displayed."
+msgstr "beim ersten Aufruf der Karte soll der Marker geöffnet angezeigt werden"
+
+#: mappress.php:661
+msgid "GoogleBar"
+msgstr "Google Leiste"
+
+#: mappress.php:661
+msgid "Check to show the \"GoogleBar\" search box for local business listings."
+msgstr "die Seitenleiste mit interessanten Umgebungsinformationen soll angezeigt werden."
+
+#: mappress.php:664
+msgid "Icons"
+msgstr "Icons"
+
+#: mappress.php:669
+msgid "Select a default map icon"
+msgstr "Standard Icon auswählen"
+
+#: mappress.php:696
+msgid "Save Changes"
+msgstr "Änderungen Speichern"
+

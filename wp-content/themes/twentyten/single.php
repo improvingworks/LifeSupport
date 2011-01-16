@@ -30,8 +30,16 @@ get_header(); ?>
 					</div><!-- .entry-utility -->
 				</div><!-- #post-## -->
 
-                <div class="grid_6 supportgroup-metadata">
-                    <?php lifesupport_get_supportgroup_fields(); ?>
+                <div class="grid_6">
+                    <div class="supportgroup-metadata">
+                        <?php lifesupport_get_supportgroup_fields(); ?>
+                    </div>
+                    <?php global $mappress; if ($mappress->shortcode_map() != ''): ?>
+                        <div class="supportgroup-map">
+                            <h3>Where They Meet</h3>
+                            <?php global $mappress; echo $mappress->shortcode_map(); ?>
+                        </div>
+                    <?php endif; ?>
                 </div>
 
 				<?php comments_template( '', true ); ?>

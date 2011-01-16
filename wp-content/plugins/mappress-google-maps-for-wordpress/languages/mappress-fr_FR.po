@@ -1,0 +1,799 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Mappress\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-09-24 19:12+0100\n"
+"PO-Revision-Date: 2010-09-25 14:59-0800\n"
+"Last-Translator: Plugin Author <donotreply@gmail.com>\n"
+"Language-Team: Jérôme LEROY <caliste_l@yahoo.fr>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=n>1\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: C:\Documents
+#: and
+#: Settings\j-leroy\Bureau\mappress-google-maps-for-wordpress/mappress.php:96
+msgid "Internal error, map was missing.  Your data has not been saved!"
+msgstr "Internal error, map was missing.  Your data has not been saved!"
+
+#: C:\Documents
+#: and
+#: Settings\j-leroy\Bureau\mappress-google-maps-for-wordpress/mappress.php:101
+msgid "Internal error - unable to save map.  Your data has not been saved!"
+msgstr "Erreur interne - impossible de sauvegarder la carte. Vos données n'ont pas été sauvegardées."
+
+#: C:\Documents
+#: and
+#: Settings\j-leroy\Bureau\mappress-google-maps-for-wordpress/mappress.php:476
+msgid "Settings"
+msgstr "Paramètres"
+
+#: C:\Documents
+#: and
+#: Settings\j-leroy\Bureau\mappress-google-maps-for-wordpress/mappress.php:477
+#: Settings\j-leroy\Bureau\mappress-google-maps-for-wordpress/mappress_api.php:529
+msgid "Directions"
+msgstr "Intinéraires"
+
+#: C:\Documents
+#: and
+#: Settings\j-leroy\Bureau\mappress-google-maps-for-wordpress/mappress.php:478
+msgid "Map types"
+msgstr "Types de carte"
+
+#: C:\Documents
+#: and
+#: Settings\j-leroy\Bureau\mappress-google-maps-for-wordpress/mappress.php:479
+msgid "Scroll wheel zoom"
+msgstr "Zoomer avec la roulette de souris"
+
+#: C:\Documents
+#: and
+#: Settings\j-leroy\Bureau\mappress-google-maps-for-wordpress/mappress.php:480
+msgid "Open first marker"
+msgstr "Ouvrir le 1er marqueur"
+
+#: C:\Documents
+#: and
+#: Settings\j-leroy\Bureau\mappress-google-maps-for-wordpress/mappress.php:481
+msgid "Show traffic button"
+msgstr "Afficher le bouton 'Circulation'"
+
+#: C:\Documents
+#: and
+#: Settings\j-leroy\Bureau\mappress-google-maps-for-wordpress/mappress.php:482
+msgid "Tooltips"
+msgstr "Infobulles"
+
+#: C:\Documents
+#: and
+#: Settings\j-leroy\Bureau\mappress-google-maps-for-wordpress/mappress.php:483
+msgid "Language"
+msgstr "Langue"
+
+#: C:\Documents
+#: and
+#: Settings\j-leroy\Bureau\mappress-google-maps-for-wordpress/mappress.php:484
+msgid "Country"
+msgstr "Pays"
+
+#: C:\Documents
+#: and
+#: Settings\j-leroy\Bureau\mappress-google-maps-for-wordpress/mappress.php:485
+msgid "Custom post types"
+msgstr "Types d'article personnalisés"
+
+#: C:\Documents
+#: and
+#: Settings\j-leroy\Bureau\mappress-google-maps-for-wordpress/mappress.php:486
+msgid "Custom CSS"
+msgstr "CSS personnalisée"
+
+#: C:\Documents
+#: and
+#: Settings\j-leroy\Bureau\mappress-google-maps-for-wordpress/mappress.php:487
+msgid "Map custom field"
+msgstr "Champ personnalisé de la carte"
+
+#: C:\Documents
+#: and
+#: Settings\j-leroy\Bureau\mappress-google-maps-for-wordpress/mappress.php:507
+msgid "country code"
+msgstr "Code de pays"
+
+#: C:\Documents
+#: and
+#: Settings\j-leroy\Bureau\mappress-google-maps-for-wordpress/mappress.php:510
+#, php-format
+msgid " Enter a %s to use as a default when searching for addresses (leave blank for USA)"
+msgstr " Entrer un(e) %s à utiliser par défaut pour les recherches d'adresse. (laisser vide pour les USA)"
+
+#: C:\Documents
+#: and
+#: Settings\j-leroy\Bureau\mappress-google-maps-for-wordpress/mappress.php:518
+msgid " Enable zooming with the mouse scroll wheel"
+msgstr "Activer le zoom avec la roulette de la souris"
+
+#: C:\Documents
+#: and
+#: Settings\j-leroy\Bureau\mappress-google-maps-for-wordpress/mappress.php:523
+msgid "language"
+msgstr "Langue"
+
+#: C:\Documents
+#: and
+#: Settings\j-leroy\Bureau\mappress-google-maps-for-wordpress/mappress.php:526
+#, php-format
+msgid " Force Google to use a specific %s for map controls (if blank Google uses the browser language setting)"
+msgstr "Forcer Google à utiliser un(e) %s  spécifique pour les contrôles de la carte (si non rempli, Google choisira la langue du navigateur)"
+
+#: C:\Documents
+#: and
+#: Settings\j-leroy\Bureau\mappress-google-maps-for-wordpress/mappress.php:534
+msgid " Allow your readers to change the map type (map types are street, satellite, or hybrid)"
+msgstr "Autoriser vos visiteurs à change le type de carte (plan, satellite, ou hybride)"
+
+#: C:\Documents
+#: and
+#: Settings\j-leroy\Bureau\mappress-google-maps-for-wordpress/mappress.php:542
+msgid " Let users to get directions from a map"
+msgstr "Autoriser les visiteurs à obtenir un itinéraire depuis une carte"
+
+#: C:\Documents
+#: and
+#: Settings\j-leroy\Bureau\mappress-google-maps-for-wordpress/mappress.php:550
+msgid " Automatically open the first marker when a map is displayed"
+msgstr "Ouvrir le premier marqueur lors de l'affichage d'une carte"
+
+#: C:\Documents
+#: and
+#: Settings\j-leroy\Bureau\mappress-google-maps-for-wordpress/mappress.php:558
+msgid " Show a button for real-time traffic conditions"
+msgstr " Afficher un bouton pour la circulation en temps réel"
+
+#: C:\Documents
+#: and
+#: Settings\j-leroy\Bureau\mappress-google-maps-for-wordpress/mappress.php:566
+msgid " Show marker titles as a \"tooltip\" on mouse-over.  You may want to switch this off if you use HTML in your marker titles"
+msgstr "Afficher les titres de marqueurs en infobulle au survol de la souris. Vous pourrez le désactiver si vous utilisez du HTML dans vos titres de marqueur."
+
+#: C:\Documents
+#: and
+#: Settings\j-leroy\Bureau\mappress-google-maps-for-wordpress/mappress.php:574
+msgid "post types"
+msgstr "Types d'article"
+
+#: C:\Documents
+#: and
+#: Settings\j-leroy\Bureau\mappress-google-maps-for-wordpress/mappress.php:576
+#, php-format
+msgid "Mark the %s where you want to use MapPress.  Check 'post' and 'page' to use MapPress in standard posts/pages:"
+msgstr "Cocher les %s où vous souhaitez utiliser MapPress. Cocher 'Article' ou 'Page' pour utiliser MapPress dans les articles/page standards :"
+
+#: C:\Documents
+#: and
+#: Settings\j-leroy\Bureau\mappress-google-maps-for-wordpress/mappress.php:589
+#, php-format
+msgid " Include your own CSS file.  You must create a file named %s in the %s directory"
+msgstr "Inclure votre propre feuille de style CSS. Vous devez créer un fichier nommé %s dans le répertoire %s"
+
+#: C:\Documents
+#: and
+#: Settings\j-leroy\Bureau\mappress-google-maps-for-wordpress/mappress.php:597
+msgid "custom field"
+msgstr "lisäkenttä"
+
+#: C:\Documents
+#: and
+#: Settings\j-leroy\Bureau\mappress-google-maps-for-wordpress/mappress.php:615
+#, php-format
+msgid "Map addresses from a %s.  You must insert the shortcode %s in your post."
+msgstr "Adresses de carte depuis un(e) %s. Vous devez insérer le code %s dans votre article."
+
+#: C:\Documents
+#: and
+#: Settings\j-leroy\Bureau\mappress-google-maps-for-wordpress/mappress.php:629
+msgid "MapPress"
+msgstr "MapPress"
+
+#: C:\Documents
+#: and
+#: Settings\j-leroy\Bureau\mappress-google-maps-for-wordpress/mappress.php:631
+msgid " Version: "
+msgstr " Version : "
+
+#: C:\Documents
+#: and
+#: Settings\j-leroy\Bureau\mappress-google-maps-for-wordpress/mappress.php:632
+#: Settings\j-leroy\Bureau\mappress-google-maps-for-wordpress/mappress_api.php:410
+msgid "Documentation"
+msgstr "Documentation"
+
+#: C:\Documents
+#: and
+#: Settings\j-leroy\Bureau\mappress-google-maps-for-wordpress/mappress.php:633
+#: Settings\j-leroy\Bureau\mappress-google-maps-for-wordpress/mappress_api.php:412
+msgid "Report a bug"
+msgstr "Remonter un bug"
+
+#: C:\Documents
+#: and
+#: Settings\j-leroy\Bureau\mappress-google-maps-for-wordpress/mappress.php:638
+msgid "Donate"
+msgstr "Faire un don"
+
+#: C:\Documents
+#: and
+#: Settings\j-leroy\Bureau\mappress-google-maps-for-wordpress/mappress.php:644
+msgid "If you find MapPress useful, please make a donation today!"
+msgstr "Si vous appréciez MapPress, faites un don aujourd'hui !"
+
+#: C:\Documents
+#: and
+#: Settings\j-leroy\Bureau\mappress-google-maps-for-wordpress/mappress.php:654
+msgid "Save Changes"
+msgstr "Sauvergarder les modifications"
+
+#: C:\Documents
+#: and
+#: Settings\j-leroy\Bureau\mappress-google-maps-for-wordpress/mappress.php:702
+msgid "WARNING: MapPress requires WordPress 3.0 or higher.  Please upgrade before using MapPress."
+msgstr "ATTENTION : MpPress requiert WordPress 3.0 ou supérieur. Mettez à jour WordPress AVANT d'utiliser cette version de MapPress."
+
+#: C:\Documents
+#: and
+#: Settings\j-leroy\Bureau\mappress-google-maps-for-wordpress/mappress.php:707
+msgid "WARNING: MapPress is not compatible with the WP-Geo plugin - your RSS feeds will not work.  Please deactivate or uninstall WP-Geo before using MapPress."
+msgstr "ATTENTION : MapPress n'est pas comptaible avec le plugin WP-Geo : votre flux RSS ne fonctionnera plus. Merci de désactiver ou désinstaller WP-Geo avant d'utiliser MapPress."
+
+#: C:\Documents
+#: and
+#: Settings\j-leroy\Bureau\mappress-google-maps-for-wordpress/mappress_api.php:347
+msgid "Close"
+msgstr "Fermer"
+
+#: C:\Documents
+#: and
+#: Settings\j-leroy\Bureau\mappress-google-maps-for-wordpress/mappress_api.php:348
+msgid "By car"
+msgstr "En voiture"
+
+#: C:\Documents
+#: and
+#: Settings\j-leroy\Bureau\mappress-google-maps-for-wordpress/mappress_api.php:349
+msgid "Walking"
+msgstr "En marchant"
+
+#: C:\Documents
+#: and
+#: Settings\j-leroy\Bureau\mappress-google-maps-for-wordpress/mappress_api.php:350
+msgid "Bicycling"
+msgstr "A vélo"
+
+#: C:\Documents
+#: and
+#: Settings\j-leroy\Bureau\mappress-google-maps-for-wordpress/mappress_api.php:355
+msgid "Start"
+msgstr "Commencer"
+
+#: C:\Documents
+#: and
+#: Settings\j-leroy\Bureau\mappress-google-maps-for-wordpress/mappress_api.php:362
+msgid "Swap start and end"
+msgstr "Inverser Début et Fin"
+
+#: C:\Documents
+#: and
+#: Settings\j-leroy\Bureau\mappress-google-maps-for-wordpress/mappress_api.php:368
+msgid "End"
+msgstr "Fin"
+
+#: C:\Documents
+#: and
+#: Settings\j-leroy\Bureau\mappress-google-maps-for-wordpress/mappress_api.php:376
+msgid "Get Directions"
+msgstr "Voir l'itinéraire"
+
+#: C:\Documents
+#: and
+#: Settings\j-leroy\Bureau\mappress-google-maps-for-wordpress/mappress_api.php:377
+msgid "Print Directions"
+msgstr "Imprimer l'itinéraire"
+
+#: C:\Documents
+#: and
+#: Settings\j-leroy\Bureau\mappress-google-maps-for-wordpress/mappress_api.php:411
+msgid "FAQ"
+msgstr "FAQ"
+
+#: C:\Documents
+#: and
+#: Settings\j-leroy\Bureau\mappress-google-maps-for-wordpress/mappress_api.php:418
+msgid "Add"
+msgstr "Ajouter"
+
+#: C:\Documents
+#: and
+#: Settings\j-leroy\Bureau\mappress-google-maps-for-wordpress/mappress_api.php:422
+msgid "Location"
+msgstr "Emplacement"
+
+#: C:\Documents
+#: and
+#: Settings\j-leroy\Bureau\mappress-google-maps-for-wordpress/mappress_api.php:427
+msgid "Lat/Lng"
+msgstr "Lat/Lng"
+
+#: C:\Documents
+#: and
+#: Settings\j-leroy\Bureau\mappress-google-maps-for-wordpress/mappress_api.php:431
+msgid "Toggle lat/lng entry"
+msgstr "Inverser les coordonnées lat/lng"
+
+#: C:\Documents
+#: and
+#: Settings\j-leroy\Bureau\mappress-google-maps-for-wordpress/mappress_api.php:443
+msgid "Current Maps"
+msgstr "Cartes en cours"
+
+#: C:\Documents
+#: and
+#: Settings\j-leroy\Bureau\mappress-google-maps-for-wordpress/mappress_api.php:444
+msgid "New Map"
+msgstr "Nouvelle carte"
+
+#: C:\Documents
+#: and
+#: Settings\j-leroy\Bureau\mappress-google-maps-for-wordpress/mappress_api.php:453
+#: Settings\j-leroy\Bureau\mappress-google-maps-for-wordpress/mappress_api.php:521
+msgid "Map ID"
+msgstr "ID de la carte"
+
+#: C:\Documents
+#: and
+#: Settings\j-leroy\Bureau\mappress-google-maps-for-wordpress/mappress_api.php:456
+#: Settings\j-leroy\Bureau\mappress-google-maps-for-wordpress/mappress_api.php:538
+msgid "Title"
+msgstr "Titre"
+
+#: C:\Documents
+#: and
+#: Settings\j-leroy\Bureau\mappress-google-maps-for-wordpress/mappress_api.php:459
+msgid "Small"
+msgstr "Petit"
+
+#: C:\Documents
+#: and
+#: Settings\j-leroy\Bureau\mappress-google-maps-for-wordpress/mappress_api.php:460
+msgid "Medium"
+msgstr "Moyen"
+
+#: C:\Documents
+#: and
+#: Settings\j-leroy\Bureau\mappress-google-maps-for-wordpress/mappress_api.php:461
+msgid "Large"
+msgstr "Grand"
+
+#: C:\Documents
+#: and
+#: Settings\j-leroy\Bureau\mappress-google-maps-for-wordpress/mappress_api.php:465
+#: Settings\j-leroy\Bureau\mappress-google-maps-for-wordpress/mappress_api.php:531
+msgid "Save"
+msgstr "Sauvegarder"
+
+#: C:\Documents
+#: and
+#: Settings\j-leroy\Bureau\mappress-google-maps-for-wordpress/mappress_api.php:466
+msgid "Center"
+msgstr "Centrer"
+
+#: C:\Documents
+#: and
+#: Settings\j-leroy\Bureau\mappress-google-maps-for-wordpress/mappress_api.php:518
+msgid "Maps in this post"
+msgstr "Cartes dans cet article"
+
+#: C:\Documents
+#: and
+#: Settings\j-leroy\Bureau\mappress-google-maps-for-wordpress/mappress_api.php:519
+msgid "There are no maps yet for this post"
+msgstr "Il n'y a pas de carte dans cet article"
+
+#: C:\Documents
+#: and
+#: Settings\j-leroy\Bureau\mappress-google-maps-for-wordpress/mappress_api.php:520
+msgid "Create a new map"
+msgstr "Créer une nouvelle carte"
+
+#: C:\Documents
+#: and
+#: Settings\j-leroy\Bureau\mappress-google-maps-for-wordpress/mappress_api.php:522
+msgid "Untitled"
+msgstr "Sans titre"
+
+#: C:\Documents
+#: and
+#: Settings\j-leroy\Bureau\mappress-google-maps-for-wordpress/mappress_api.php:523
+msgid "The starting or ending address could not be found."
+msgstr "L'adresse de départ ou d'arrivée est introuvable."
+
+#: C:\Documents
+#: and
+#: Settings\j-leroy\Bureau\mappress-google-maps-for-wordpress/mappress_api.php:524
+msgid "Google cannot return directions between those addresses.  There is no route between them or the routing information is not available."
+msgstr "Google ne peut afficher l'itinéraire. Il n'y a pas de route ou les informations sont indisponibles."
+
+#: C:\Documents
+#: and
+#: Settings\j-leroy\Bureau\mappress-google-maps-for-wordpress/mappress_api.php:525
+msgid "Unknown error, unable to return directions.  Status code = "
+msgstr "Erreur inconnue, impossible de définir l'itinéraire. Code de statut ="
+
+#: C:\Documents
+#: and
+#: Settings\j-leroy\Bureau\mappress-google-maps-for-wordpress/mappress_api.php:526
+msgid "Enter address"
+msgstr "Entrez l'adresse"
+
+#: C:\Documents
+#: and
+#: Settings\j-leroy\Bureau\mappress-google-maps-for-wordpress/mappress_api.php:527
+msgid "No matching address"
+msgstr "Aucune adresse trouvée"
+
+#: C:\Documents
+#: and
+#: Settings\j-leroy\Bureau\mappress-google-maps-for-wordpress/mappress_api.php:528
+msgid "Did you mean: "
+msgstr "Voulez-vous dire :"
+
+#: C:\Documents
+#: and
+#: Settings\j-leroy\Bureau\mappress-google-maps-for-wordpress/mappress_api.php:530
+msgid "Edit"
+msgstr "Editer"
+
+#: C:\Documents
+#: and
+#: Settings\j-leroy\Bureau\mappress-google-maps-for-wordpress/mappress_api.php:532
+msgid "Cancel"
+msgstr "Annuler"
+
+#: C:\Documents
+#: and
+#: Settings\j-leroy\Bureau\mappress-google-maps-for-wordpress/mappress_api.php:533
+#: Settings\j-leroy\Bureau\mappress-google-maps-for-wordpress/mappress_api.php:541
+msgid "Delete"
+msgstr "Supprimer"
+
+#: C:\Documents
+#: and
+#: Settings\j-leroy\Bureau\mappress-google-maps-for-wordpress/mappress_api.php:534
+msgid "View"
+msgstr "Vue"
+
+#: C:\Documents
+#: and
+#: Settings\j-leroy\Bureau\mappress-google-maps-for-wordpress/mappress_api.php:535
+msgid "Back"
+msgstr "Retour"
+
+#: C:\Documents
+#: and
+#: Settings\j-leroy\Bureau\mappress-google-maps-for-wordpress/mappress_api.php:536
+msgid "Insert into post"
+msgstr "Insérer dans l'article"
+
+#: C:\Documents
+#: and
+#: Settings\j-leroy\Bureau\mappress-google-maps-for-wordpress/mappress_api.php:537
+msgid "Select a map"
+msgstr "Sélectionner une carte"
+
+#: C:\Documents
+#: and
+#: Settings\j-leroy\Bureau\mappress-google-maps-for-wordpress/mappress_api.php:539
+msgid "Delete this map marker?"
+msgstr "Supprimer ce marqueur ?"
+
+#: C:\Documents
+#: and
+#: Settings\j-leroy\Bureau\mappress-google-maps-for-wordpress/mappress_api.php:540
+msgid "Delete this map?"
+msgstr "Supprimer cette carte ?"
+
+#: C:\Documents
+#: and
+#: Settings\j-leroy\Bureau\mappress-google-maps-for-wordpress/mappress_api.php:542
+msgid "Map saved"
+msgstr "Carte sauvegardée"
+
+#: C:\Documents
+#: and
+#: Settings\j-leroy\Bureau\mappress-google-maps-for-wordpress/mappress_api.php:543
+msgid "Map deleted"
+msgstr "Carte supprimée"
+
+#: C:\Documents
+#: and
+#: Settings\j-leroy\Bureau\mappress-google-maps-for-wordpress/mappress_api.php:544
+msgid "Error: AJAX failed!  "
+msgstr "ERREUR : échec AJAX !"
+
+#: C:\Documents
+#: and
+#: Settings\j-leroy\Bureau\mappress-google-maps-for-wordpress/mappress_api.php:545
+msgid "Click & drag to move this marker"
+msgstr "Cliquer/glisser pour déplacer ce marqueur"
+
+#: C:\Documents
+#: and
+#: Settings\j-leroy\Bureau\mappress-google-maps-for-wordpress/mappress_api.php:546
+msgid "Zoom"
+msgstr "Zoom"
+
+#: C:\Documents
+#: and
+#: Settings\j-leroy\Bureau\mappress-google-maps-for-wordpress/mappress_api.php:547
+msgid "Traffic"
+msgstr "Circulation"
+
+#~ msgid "Google error: BAD REQUEST"
+#~ msgstr "Erreur Google : mauvaise requète"
+
+#~ msgid "Google internal error.  Try again later."
+#~ msgstr "Erreur interne Google. Essayer plus tard."
+
+#~ msgid "The starting or ending address was missing."
+#~ msgstr "L'adresse de départ ou d'arrivée est manquante."
+
+#~ msgid ""
+#~ "Google cannot return those directions for legal or contractual reasons"
+#~ msgstr ""
+#~ "Google ne peut afficher l'itinéraire pour des questions légales ou "
+#~ "contractuelles."
+
+#~ msgid "Invalid map API key"
+#~ msgstr "Clé API Google Map invalide"
+
+#~ msgid "Your key has issued too many queries in one day."
+#~ msgstr "Votre clé a requis trop de demandes aujourd'hui."
+
+#~ msgid ""
+#~ "Error: your browser does not seem to support the street view Flash player"
+#~ msgstr ""
+#~ "Erreur : votre navigateur semble ne pas supporter la Streetview en Flash"
+
+#~ msgid "Sorry, no street view data is available for this location"
+#~ msgstr "Désolé, aucune Sreetview disponible pour cette position"
+
+#~ msgid "Sorry, Google was unable to display the street view in your browser"
+#~ msgstr ""
+#~ "Désolé, Google ne peut afficher la Street view dans votre navigateur"
+
+#~ msgid "Street view"
+#~ msgstr "Street view"
+
+#~ msgid "Get directions"
+#~ msgstr "Voir l'itinéraire"
+
+#~ msgid "to here"
+#~ msgstr "à partir de cet emplacement"
+
+#~ msgid "from here"
+#~ msgstr "vers cet emplacement"
+
+#~ msgid "Go"
+#~ msgstr "Voir l'itinéraire"
+
+#~ msgid "Please enter your API key. Need an API key?  Get one "
+#~ msgstr "Entrez votre cle API Google Map. Besoin d'une clef ? En obtenir une"
+
+#~ msgid ""
+#~ "MapPress could not load google maps.  Either your browser is incompatible "
+#~ "or your API key is invalid.  Need an API key?  Get one "
+#~ msgstr ""
+#~ "MapPress ne peut charger Google Map. Soit votre navigateur n'est pas "
+#~ "compatible, soit votre clé API Google map est invalide. Besoin d'une "
+#~ "clef ? En obtenir une"
+
+#~ msgid "here"
+#~ msgstr "ici"
+
+#~ msgid "That address is already on the map : "
+#~ msgstr "Cette emplacement est déjà sur la carte :"
+
+#~ msgid "Please enter a location to map"
+#~ msgstr "Entrez un emplacement sur la carte"
+
+#~ msgid "Press escape or click here to cancel: "
+#~ msgstr "Appuyer sur \"Echap\" ou cliquez ici pour annuler :"
+
+#~ msgid ""
+#~ "MapPress isn't ready yet.  Please enter your Google Maps API Key on the "
+#~ msgstr ""
+#~ "MapPress n'est pas encore prêt. Merci d'entrer votre clé API Google Map "
+#~ "sur"
+
+#~ msgid "MapPress options screen."
+#~ msgstr "Options d'écran MapPress"
+
+#~ msgid "Insert map shortcode in post &raquo;"
+#~ msgstr "Insérer le shortcode dans l'article &raquo;"
+
+#~ msgid "Add locations"
+#~ msgstr "Ajouter des emplacements"
+
+#~ msgid "Street Address, city, state, country, or place"
+#~ msgstr "Adresse, ville, état, pays, ou lieu"
+
+#~ msgid "Latitude/Longitude "
+#~ msgstr "Latitude/Longitude "
+
+#~ msgid "Preview"
+#~ msgstr "Prévisualisation"
+
+#~ msgid ""
+#~ "Automatically center/zoom map when saved (uncheck to display map exactly "
+#~ "as shown below)"
+#~ msgstr ""
+#~ "Center/zoomer automatiquement à la sauvergarde (décocher \"Afficher la "
+#~ "carte exactement comme montré ci-dessous\")"
+
+#~ msgid "Center/zoom now"
+#~ msgstr "Centrer/zoomer maintenant"
+
+#~ msgid "Click on a marker or use the links below to edit or delete markers."
+#~ msgstr ""
+#~ "Cliquer sur le marqueurs ou sur les liens ci-dessous pour éditer ou "
+#~ "supprimer des marqueurs."
+
+#~ msgid "ACCESS DENIED: You don't have permission to do this."
+#~ msgstr "ACCES REFUSE: Vous n'avez la permission pour faire cela."
+
+#~ msgid "supported languages"
+#~ msgstr "Langues supportées"
+
+#~ msgid "MapPress Options"
+#~ msgstr "Options MapPress"
+
+#~ msgid "Google Maps API Key"
+#~ msgstr "Clé API Google Maps"
+
+#~ msgid "Optional Settings"
+#~ msgstr "Paramètres optionels"
+
+#~ msgid "Address format"
+#~ msgstr "Format d'adresse"
+
+#~ msgid "Exactly as entered"
+#~ msgstr "Exactement comme saisi"
+
+#~ msgid "Corrected address"
+#~ msgstr "Adresse corrigée"
+
+#~ msgid "Country code for searches"
+#~ msgstr "Code pays pour les recherches"
+
+#~ msgid "Big map controls"
+#~ msgstr "Grand contrôle de carte"
+
+#~ msgid ""
+#~ "Check to show large map controls; uncheck for a small zoom control instead"
+#~ msgstr ""
+#~ "Cocher pour afficher les grands contrôles de la carte ; décocher pour un "
+#~ "petit contôle de zoom"
+
+#~ msgid "Check to enable the \"map types\" button on the map"
+#~ msgstr "Cocher pour activer le bouton \"Types de carte\" sur la carte"
+
+#~ msgid "Initial map type"
+#~ msgstr "Type initial de carte"
+
+#~ msgid "Choose the map type to use when the map is first displayed"
+#~ msgstr "Définir le type de carte à afficher au premier affichage"
+
+#~ msgid "GoogleBar"
+#~ msgstr "GoogleBar"
+
+#~ msgid ""
+#~ "Check to show the \"GoogleBar\" search box for local business listings."
+#~ msgstr ""
+#~ "Cocher pour afficher la barre de recherche Google pour la liste des "
+#~ "business locaux."
+
+#~ msgid "Default map icon: "
+#~ msgstr "Icône de la carte par défaut:"
+
+#~ msgid "(click the icon to choose)"
+#~ msgstr "(cliquer sur l'icône pour choisir)"
+
+#~ msgid ""
+#~ "The starting or ending address could not be found.  Please check that the "
+#~ "address is correct and completely entered."
+#~ msgstr ""
+#~ "Lähtöpaikan tai määränpään osoitetta ei löydy. Ole hyvä ja tarkista, että "
+#~ "osoite on oikea ja kirjoitettu oikein."
+
+#~ msgid "Map options "
+#~ msgstr "Kartan asetukset"
+
+#~ msgid "(leave blank for default)"
+#~ msgstr "(tyhjä = oletusarvo)"
+
+#~ msgid "Width "
+#~ msgstr "Leveys"
+
+#~ msgid "Height "
+#~ msgstr "Korkeus"
+
+#~ msgid "Add address"
+#~ msgstr "Lisää osoite"
+
+#~ msgid "Automatic"
+#~ msgstr "Automaattinen"
+
+#~ msgid "1 - zoomed out"
+#~ msgstr "1 - kaukonäkymä"
+
+#~ msgid "20 - zoomed in"
+#~ msgstr "20 - lähinäkymä"
+
+#~ msgid "Map width"
+#~ msgstr "Kartan leveys"
+
+#~ msgid "Enter a value in pixels (default is 400)"
+#~ msgstr "Anna arvo pikseleinä (oletus 400)"
+
+#~ msgid "Map height"
+#~ msgstr "Kartan korkeus"
+
+#~ msgid "Enter a value in pixels (default is 300)"
+#~ msgstr "Anna arvo pikseleinä (oletus 300)"
+
+#~ msgid "Advanced Settings"
+#~ msgstr "Lisäasetukset"
+
+#~ msgid "MapPress link"
+#~ msgstr "MapPress-linkki"
+
+#~ msgid "Enable the \"powered by\" link."
+#~ msgstr "Ota käyttöön \"powered by\" -linkki."
+
+#~ msgid ""
+#~ "MapPress has changed with this version.  You must re-enter your maps.  "
+#~ "Please see the note on the %1$sMapPress options screen%2$s"
+#~ msgstr ""
+#~ "MapPress on muuttunut. Sinun täytyy luoda karttasi uudelleen. Ole hyvä ja "
+#~ "katso huomautus %1$sMapPress Asetusnäkymästä%2$s"
+
+#~ msgid "Zoom (1-20) "
+#~ msgstr "Zoom (1-20) "
+
+#~ msgid "Caption"
+#~ msgstr "Otsikko"
+
+#~ msgid "Clear form"
+#~ msgstr "Tyhjennä lomake"
+
+#~ msgid "shortcodes"
+#~ msgstr "lyhytkoodit"
+
+#~ msgid "Map zoom (1-20)"
+#~ msgstr "Kartan zoomaus (1-20)"
+
+#~ msgid "1=fully zoomed out, 20=fully zoomed in (default is 15)"
+#~ msgstr "1=laajin näkymä, 20=lähin näkymä (oletus on 15)"
+
+#~ msgid "Icons"
+#~ msgstr "Kuvakkeet"

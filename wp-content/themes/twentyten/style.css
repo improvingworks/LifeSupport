@@ -1347,3 +1347,12 @@ code {
     padding: 0;
 }
 
+.supportgroup-map {
+    margin-top: 20px;
+}
+
+.supportgroup-map h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 5px 0 !important;
+}
