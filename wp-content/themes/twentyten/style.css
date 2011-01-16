@@ -161,7 +161,7 @@ div.menu,
 #main,
 #wrapper {
 	margin: 0 auto;
-	width: 940px;
+	width: 1000px;
 }
 #wrapper {
 	background: #fff;
@@ -1313,6 +1313,19 @@ code {
 	.home .sticky {
 		border: none;
 	}
+}
+
+/* =SupportBox
+-------------------------------------------------------------- */
+#supportBox {
+    background: #eee;
+    padding:10px 10px 10px 10px;
+    border:1px solid #333;
+}
+
+#searchLabel {
+    font-size:32px;
+    font-weight:bold;
 }
 
 /* =Support Group Metadata
