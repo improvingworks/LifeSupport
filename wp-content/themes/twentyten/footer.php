@@ -31,6 +31,8 @@
                 <a href="<?php echo home_url( '/' ); ?>terms-and-conditions">Terms and conditions
                 </a>&nbsp;&nbsp;
                 <a href="<?php echo home_url( '/' ); ?>disclaimers">Disclaimers
+                </a>&nbsp;&nbsp;
+                <a href="<?php echo home_url( '/' ); ?>wp-admin">Login
                 </a>
 			</div><!-- #site-info -->
 
