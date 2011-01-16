@@ -1,0 +1,163 @@
+# Translation of the WordPress plugin   by .
+# Copyright (C) 2009 
+# This file is distributed under the same license as the  package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version:  \n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/dropdown-menu-widget\n"
+"POT-Creation-Date: 2009-12-31 09:25+0000\n"
+"PO-Revision-Date: 2009-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: shailan-category-walker.php:95
+#, php-format
+msgid "Feed for all posts filed under %s"
+msgstr ""
+
+#: shailan.DropDownMenu.php:22
+msgid "Dropdown page/category menu"
+msgstr ""
+
+#: shailan.DropDownMenu.php:23 shailan.DropDownMenu.php:33
+msgid "Dropdown Menu"
+msgstr ""
+
+#: shailan.DropDownMenu.php:33
+msgid "Settings for Dropdown Menu"
+msgstr ""
+
+#: shailan.DropDownMenu.php:82
+msgid "Options saved."
+msgstr ""
+
+#: shailan.DropDownMenu.php:116
+msgid ""
+"Dropdown menu creates a beautiful CSS only dropdown menu from your wordpress "
+"pages or categories. You can customize dropdown menu theme and settings here:"
+msgstr ""
+
+#: shailan.DropDownMenu.php:124
+msgid "Dropdown menu theme"
+msgstr ""
+
+#: shailan.DropDownMenu.php:132
+msgid "You can choose a theme for your dropdown menu here."
+msgstr ""
+
+#: shailan.DropDownMenu.php:137
+msgid "Template tag options"
+msgstr ""
+
+#: shailan.DropDownMenu.php:138
+msgid ""
+"You can use following template tag in your themes to display the dropdown "
+"menu."
+msgstr ""
+
+#: shailan.DropDownMenu.php:140
+msgid "Here you can set template tag options:"
+msgstr ""
+
+#: shailan.DropDownMenu.php:143 shailan.DropDownMenu.php:269
+msgid "Title (won't be shown):"
+msgstr ""
+
+#: shailan.DropDownMenu.php:145 shailan.DropDownMenu.php:271
+msgid "Type:"
+msgstr ""
+
+#: shailan.DropDownMenu.php:145 shailan.DropDownMenu.php:271
+msgid "Pages"
+msgstr ""
+
+#: shailan.DropDownMenu.php:145 shailan.DropDownMenu.php:271
+msgid "Categories"
+msgstr ""
+
+#: shailan.DropDownMenu.php:147 shailan.DropDownMenu.php:273
+msgid "Exclude:"
+msgstr ""
+
+#: shailan.DropDownMenu.php:148
+msgid "Page IDs, separated by commas."
+msgstr ""
+
+#: shailan.DropDownMenu.php:152 shailan.DropDownMenu.php:278
+msgid "Add login/logout"
+msgstr ""
+
+#: shailan.DropDownMenu.php:154 shailan.DropDownMenu.php:280
+msgid "Add Register/Site Admin"
+msgstr ""
+
+#: shailan.DropDownMenu.php:156 shailan.DropDownMenu.php:282
+msgid "Vertical menu"
+msgstr ""
+
+#: shailan.DropDownMenu.php:159 shailan.DropDownMenu.php:287
+msgid "Inline Style:"
+msgstr ""
+
+#: shailan.DropDownMenu.php:160
+msgid "Applied to menu container &lt;div&gt;"
+msgstr ""
+
+#: shailan.DropDownMenu.php:162
+msgid ""
+"NOTE: Widgets have their own options. Those options won't affect widgets."
+msgstr ""
+
+#: shailan.DropDownMenu.php:166
+msgid ""
+"NOTE : Onscreen theme edit will be available soon. Be sure to check <a href="
+"\"http://shailan.com\">shailan.com</a> regularly for updates."
+msgstr ""
+
+#: shailan.DropDownMenu.php:169
+msgid "Save Changes"
+msgstr ""
+
+#: shailan.DropDownMenu.php:171
+msgid ""
+"Visit <a href=\"http://shailan.com\">shailan.com</a> for more wordpress "
+"themes, plugins and widgets."
+msgstr ""
+
+#: shailan.DropDownMenu.php:222
+msgid "Home"
+msgstr ""
+
+#: shailan.DropDownMenu.php:285
+msgid "Align:"
+msgstr ""
+
+#: shailan.DropDownMenu.php:285
+msgid "Left"
+msgstr ""
+
+#: shailan.DropDownMenu.php:285
+msgid "Center"
+msgstr ""
+
+#: shailan.DropDownMenu.php:285
+msgid "Right"
+msgstr ""
+
+#: shailan.DropDownMenu.php:288
+msgid "Applied to menu container &lt;div&gt;."
+msgstr ""
+
+#: shailan.DropDownMenu.php:291
+msgid "Menu Style"
+msgstr ""
+
+#: shailan.DropDownMenu.php:291
+msgid "Visit plugin site"
+msgstr ""
