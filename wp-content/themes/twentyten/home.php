@@ -15,7 +15,6 @@
 	<div class="clear"></div>
 	
 	<div class="container_16">
-		hi
 		<?php query_posts('page_id=18'); ?>
 		<?php while (have_posts()): the_post(); ?>
 			<?php the_content(); ?>
@@ -34,7 +33,6 @@
 	<div class="clear"></div>
 
 	<div class="container_16">
-		hi
 		<?php query_posts('page_id=118'); ?>
 		<?php while (have_posts()): the_post(); ?>
 			<?php the_content(); ?>
