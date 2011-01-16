@@ -1,0 +1,28 @@
+/** Dropdown Menu Widget Admin Styles */
+.shailan_dm_input{padding:10px;}
+.shailan_dm_input small{font-style:italic; font-size:smaller; color:#666;}
+.shailan_dm_input label{	font-size:12px;
+	width:200px;
+	display:block;
+	float:left;	}
+
+.shailan_dm_input input[type=text]{
+	width:280px;}
+
+.shailan_dm_input textarea{
+	width:400px; height:150px; }
+	
+#widgets-right .widgets-sortables{ min-height:0px; }
+
+.widget-holder{position:relative; zoom:1;}
+
+#picker{ position:absolute; top:10px; right:10px; }
+
+
+
+.sidebar-name{overflow:auto; display:block;}
+.sidebar-name h3{float:left;}
+.sidebar-name span{float:right;}
+
+input.selected{border:1px solid #f93}
+input.color-error{border:1px solid #f00;}

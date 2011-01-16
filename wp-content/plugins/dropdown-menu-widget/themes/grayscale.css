@@ -1,0 +1,50 @@
+@charset "UTF-8";
+/* colors : #a0a0a0; #929292; #838383;	*/
+
+/** Container */
+.shailan-dropdown-menu .dropdown-horizontal-container{ background:#a0a0a0 url('images/default1_g.jpg') repeat-x bottom; }
+
+ul.dropdown li { 
+	border:1px solid #838383;
+	color: #333;
+	text-align:center;
+	background:#c2c2c2 url('images/default1_g.jpg') repeat-x bottom;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:1.2em;
+	font-weight:bold;
+	text-transform:uppercase; }
+ul.dropdown-vertical li{ border-top:1px solid #a0a0a0; }
+ul.dropdown li { border-left:1px solid #838383; }
+
+/** Right align fix */
+ul.dropdown-align-right li{ border-width: 1px 0px 1px 1px; }
+
+/** Hover effect */
+ul.dropdown li.hover, ul.dropdown li:hover { background:#838383 url('images/default2_g.jpg') repeat-x bottom;
+	border-bottom:1px solid #999;
+	border-top: 1px solid #999; }
+
+/** Link colors */
+ul.dropdown a:link, ul.dropdown a:visited { color: #333; text-decoration: none; display:block; }
+ul.dropdown a:hover	{ color: #fff; }
+ul.dropdown a:active { color: #fff; }
+
+/** Sub menus */
+ul.dropdown ul { margin-top: 0px; margin-left:-1px; font-size:0.8em; }
+ul.dropdown ul li { background:#c2c2c2; text-align: left; border-left:1px solid #999; border-top:1px solid #999; }
+
+/** Current menu item */
+li.current-cat a, li.current_page_item a, li.current-menu-item a,
+li.current-cat a:link, li.current_page_item a:link, li.current-menu-item a:link,
+li.current-cat a:visited, li.current_page_item a:visited, li.current-menu-item a:visited{ color: #efefef; }
+
+/** Not current fix */
+li.current_page_item ul a, li.current_page_item ul a:visited, li.current_page_item ul a:link { color: #333; }
+
+/** Ancestor */
+li.current_page_ancestor a,li.current_page_ancestor a:visited, li.current_page_ancestor a:link {text-decoration:underline;}
+li.current-menu-ancestor a,li.current-menu-ancestor a:visited, li.current-menu-ancestor a:link {text-decoration:underline;}
+
+/** Not ancestor fix */
+li.current_page_ancestor ul a, li.current_page_ancestor ul a:visited, li.current_page_ancestor ul a:link { text-decoration:none; }
+li.current-menu-ancestor ul a,li.current-menu-ancestor ul a:visited, li.current-menu-ancestor ul a:link {text-decoration:none;}
