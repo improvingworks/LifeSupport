@@ -1,0 +1,498 @@
+# Fast and Secure Contact Form
+# This file is put in the public domain.
+#
+# Plugin URI: http://www.642weather.com/weather/scripts-wordpress-si-contact.php
+# Description: This contact form lets your visitors send you a quick E-mail message.
+# Version: 1.1
+# Author: Mike Challis
+# Author URI: http://www.642weather.com/weather/scripts.php
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Fast and Secure Contact Form zh_TW translation\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/si-contact-form\n"
+"POT-Creation-Date: 2009-08-27 17:15+0000\n"
+"PO-Revision-Date: 2009-09-01 23:19+0800\n"
+"Last-Translator: CJH <cjh@cjh.cc>\n"
+"Language-Team: CJH\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Chinese\n"
+"X-Poedit-Country: TAIWAN\n"
+"Plural-Forms: nplurals=2; plural=n > 1\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: si-contact-form.php:34
+msgid "SI Contact Form Options"
+msgstr "SI Contact Form 設定"
+
+#: si-contact-form.php:62
+msgid "<p>Comments or questions are welcome.</p>"
+msgstr "<p>歡迎批評指教</p>"
+
+#: si-contact-form.php:63
+#: si-contact-form.php:229
+#: si-contact-form.php:422
+msgid "Webmaster"
+msgstr "網站管理員"
+
+#: si-contact-form.php:96
+msgid "You do not have permissions for managing this option"
+msgstr "你沒有權限執行此動作"
+
+#: si-contact-form.php:164
+msgid "Options saved."
+msgstr "設定已儲存"
+
+#: si-contact-form.php:167
+msgid "Fast and Secure Contact Form Options"
+msgstr "Fast and Secure Contact Form 設定"
+
+#: si-contact-form.php:179
+msgid "Donate"
+msgstr "贊助"
+
+#: si-contact-form.php:190
+msgid "If you find this plugin useful to you, please consider making a small donation to help contribute to further development. Thanks for your kind support!"
+msgstr "如果你覺得這個外掛對你很有用，為了幫助軟體後續的開發，請考慮給予贊助。感謝你的支持！"
+
+#: si-contact-form.php:194
+msgid "Usage"
+msgstr "使用方式"
+
+#: si-contact-form.php:196
+msgid "You must add the shortcode <b>[si_contact_form]</b> in a Page. That page will become your Contact Form"
+msgstr "你必須在一個網誌分頁(page)中加入  <b>[si_contact_form]</b> 文字，此頁面即會自動轉變成Contact Form"
+
+#: si-contact-form.php:199
+msgid "Options"
+msgstr "設定"
+
+#: si-contact-form.php:211
+msgid "Form:"
+msgstr "Form:"
+
+#: si-contact-form.php:213
+msgid "Welcome introduction"
+msgstr "歡迎訊息"
+
+#: si-contact-form.php:215
+#: si-contact-form.php:249
+#: si-contact-form.php:258
+#: si-contact-form.php:265
+#: si-contact-form.php:287
+#: si-contact-form.php:294
+#: si-contact-form.php:301
+#: si-contact-form.php:331
+#: si-contact-form.php:352
+#: si-contact-form.php:360
+#: si-contact-form.php:368
+msgid "Click for Help!"
+msgstr "點我讀取說明！"
+
+#: si-contact-form.php:215
+#: si-contact-form.php:249
+#: si-contact-form.php:258
+#: si-contact-form.php:265
+#: si-contact-form.php:287
+#: si-contact-form.php:294
+#: si-contact-form.php:301
+#: si-contact-form.php:331
+#: si-contact-form.php:352
+#: si-contact-form.php:360
+#: si-contact-form.php:368
+msgid "help"
+msgstr "本項說明"
+
+#: si-contact-form.php:217
+msgid "This gets printed when the contact form is first presented. It is not printed when there is an input error and not printed after the form is completed."
+msgstr "當contact form第一次顯示時會列出. 當有輸入錯誤，或表單已完成時，則不會列出"
+
+#: si-contact-form.php:222
+msgid "E-mail:"
+msgstr "E-mail:"
+
+#: si-contact-form.php:241
+msgid "E-mail To"
+msgstr "E-mail 給"
+
+#: si-contact-form.php:244
+#: si-contact-form.php:812
+msgid "ERROR: Misconfigured E-mail address in options."
+msgstr "錯誤: 尚未設定E-mail位址"
+
+#: si-contact-form.php:251
+msgid "E-mail address the messages are sent to (your email). Add as many contacts as you need, the drop down list on the contact form will be made automatically. Each contact has a name and an email address separated by a comma. Separate each contact by pressing enter. If you need to add more than one contact, follow this example:"
+msgstr "訪客輸入的訊息，會寄到此 E-mail 位址(你的Email)。自行填入你需要的contact類型，每個類型是由一個 名稱 和 一個Email位址，以逗號分隔組成，每一行代表一個項目，Contact form內的下拉式選單會自動加入。如果你需要一個以上的contact類型，請參考以下範例："
+
+#: si-contact-form.php:257
+msgid "E-mail From (optional)"
+msgstr "寄件者 E-mail(選填)"
+
+#: si-contact-form.php:260
+msgid "E-mail address the messages are sent from. Normally you should leave this blank. Some web hosts do not allow PHP to send E-mail unless the \"From:\" E-mail address is on the same web domain. If your contact form does not send any E-mail, then set this to an E-mail address on the SAME domain as your web site as a possible fix."
+msgstr "寄件者的Email位址。通常只要留白即可。有些主機商不允許PHP寄送和主機不同網域的E-mail郵件。 如果你的 contact form 沒有正確的寄出郵件，將此欄位設定為同網域的郵件帳號，也許可以解決此問題。"
+
+#: si-contact-form.php:264
+msgid "E-mail Bcc (optional)"
+msgstr "密件副本(bcc)的E-mail寄到...(選填)"
+
+#: si-contact-form.php:267
+msgid "E-mail address(s) to receive Bcc (Blind Carbon Copy) messages. You can send to multiple or single, both methods are acceptable:"
+msgstr "接受以密件複本(bcc)寄送的E-mail位址. 你可以設定多個或一個皆可。"
+
+#: si-contact-form.php:274
+msgid "Enable double E-mail entry required on contact form."
+msgstr "使用兩個E-mail輸入欄位，以驗證正確性"
+
+#: si-contact-form.php:277
+msgid "Enable Form Post security by requiring domain name match for"
+msgstr "啟用表單安全性驗證，網域名稱必須為："
+
+#: si-contact-form.php:282
+msgid "(recommended)."
+msgstr "(建議)."
+
+#: si-contact-form.php:286
+msgid "E-mail header field: language"
+msgstr "E-mail 檔頭欄位(header field)：語言(language)(<b>繁體中文使用者建議改為 zh_TW</b>)"
+
+#: si-contact-form.php:289
+#: si-contact-form.php:296
+#: si-contact-form.php:303
+msgid "Do not change unless you have good reason to."
+msgstr "除非你有很好的理由，否則請不要更改"
+
+#: si-contact-form.php:293
+msgid "E-mail header field: charset"
+msgstr "E-mail 檔頭欄位(header field)：字元集(charset)(<b>繁體中文使用者建議改為 big5</b>)"
+
+#: si-contact-form.php:300
+msgid "E-mail header field: encoding"
+msgstr "E-mail 檔頭欄位(header field)：編碼(encoding)"
+
+#: si-contact-form.php:310
+msgid "CAPTCHA:"
+msgstr "CAPTCHA:"
+
+#: si-contact-form.php:313
+msgid "Enable CAPTCHA (recommended)."
+msgstr "啟用 CAPTCHA (建議啟用)."
+
+#: si-contact-form.php:316
+msgid "Hide CAPTCHA for"
+msgstr "隱藏 CAPTCHA 當"
+
+#: si-contact-form.php:317
+msgid "registered"
+msgstr "已註冊"
+
+#: si-contact-form.php:317
+msgid "users who can"
+msgstr "使用者權限為："
+
+#: si-contact-form.php:320
+msgid "Test if your PHP installation will support the CAPTCHA"
+msgstr "測試你的PHP版本是否支援 CAPTCHA"
+
+#: si-contact-form.php:325
+msgid "Redirect:"
+msgstr "重新導向:"
+
+#: si-contact-form.php:328
+msgid "Enable redirect after the message sends"
+msgstr "啟用：當訊息成功寄出時，自動重新導向"
+
+#: si-contact-form.php:330
+msgid "Redirect URL"
+msgstr "重新導向目標URL"
+
+#: si-contact-form.php:333
+msgid "After a user sends a message, the web browser will display \"message sent\" for 5 seconds, then redirect to this URL."
+msgstr "當使用者送出一個訊息，網頁瀏覽器會顯示「訊息已傳送」字樣，持續五秒，然後重新導向到此URL"
+
+#: si-contact-form.php:340
+msgid "Style:"
+msgstr "Style:"
+
+#: si-contact-form.php:344
+msgid "Enable border on contact form"
+msgstr "啟用contact from的外框"
+
+#: si-contact-form.php:347
+msgid "CSS style for form input titles on the contact form"
+msgstr "contact form標題欄位的CSS style"
+
+#: si-contact-form.php:348
+msgid "CSS style for form input fields on the contact form"
+msgstr "contact form內容欄位的CSS style"
+
+#: si-contact-form.php:349
+msgid "CSS style for form input errors on the contact form"
+msgstr "contact form輸入錯誤提示訊息的CSS style"
+
+#: si-contact-form.php:351
+msgid "Input Text Field Size"
+msgstr "單行文字輸入欄位的大小"
+
+#: si-contact-form.php:354
+msgid "Use to adjust the size of the contact form text input fields."
+msgstr "用來調整contact form單行文字輸入欄位的大小"
+
+#: si-contact-form.php:358
+msgid "Input Textarea Field Cols"
+msgstr "多行文字的列數"
+
+#: si-contact-form.php:359
+msgid "Rows"
+msgstr "行數"
+
+#: si-contact-form.php:362
+msgid "Use to adjust the size of the contact form message textarea."
+msgstr "用來調整contact form訊息輸入欄位(多行文字)的大小"
+
+#: si-contact-form.php:367
+msgid "Enable aria-required tags for screen readers"
+msgstr "針對使用螢幕閱讀器(視力不良者)啟用 aria-required tags"
+
+#: si-contact-form.php:370
+msgid "aria-required is a form input WAI ARIA tag. Screen readers use it to determine which fields are required. Enabling this is good for accessability, but will cause the HTML to fail the W3C Validation (there is no attribute \"aria-required\"). WAI ARIA attributes are soon to be accepted by the HTML validator, so you can safely ignore the validation error it will cause."
+msgstr "aria-required 是一個表單輸入的 WAI ARIA tag. 視力不良者利用此判斷那個欄位是必填的。啟用此設定有助於提高網站親和力，但會造成HTML的W3C驗證失敗(因為沒有屬性叫做 \"aria-required\"). WAI ARIA 屬性很快的會被HTML驗證器所接受，所以你可以安全的忽視掉驗證錯誤的問題。"
+
+#: si-contact-form.php:380
+msgid "Update Options"
+msgstr "儲存設定"
+
+#: si-contact-form.php:390
+msgid "All registered users"
+msgstr "所有已註冊的使用者"
+
+#: si-contact-form.php:391
+msgid "Edit posts"
+msgstr "可修改文章"
+
+#: si-contact-form.php:392
+msgid "Publish Posts"
+msgstr "可發表文章"
+
+#: si-contact-form.php:393
+msgid "Moderate Comments"
+msgstr "可管理回應"
+
+#: si-contact-form.php:394
+msgid "Administer site"
+msgstr "網站管理員"
+
+#: si-contact-form.php:506
+msgid "Your message has been sent, thank you."
+msgstr "已送出您的訊息，謝謝。"
+
+#: si-contact-form.php:535
+#: si-contact-form.php:536
+msgid "Redirecting"
+msgstr "重新導向中..."
+
+#: si-contact-form.php:583
+msgid "Selecting a contact is required."
+msgstr "必須選擇一個項目"
+
+#: si-contact-form.php:587
+msgid "Requested Contact not found."
+msgstr "未找到目標"
+
+#: si-contact-form.php:620
+#: si-contact-form.php:683
+msgid "Contact Form has Invalid Input"
+msgstr "Contact Form內有不合法的輸入"
+
+#: si-contact-form.php:625
+msgid "Your IP is Banned"
+msgstr "你的IP已經被拒絕存取"
+
+#: si-contact-form.php:635
+msgid "Your name is required."
+msgstr "必須輸入姓名"
+
+#: si-contact-form.php:639
+#: si-contact-form.php:643
+msgid "A proper e-mail address is required."
+msgstr "必須輸入正確的E-mail格式"
+
+#: si-contact-form.php:647
+msgid "The two e-mail addresses did not match, please enter again."
+msgstr "兩個E-mail位址並不相同，請重新輸入"
+
+#: si-contact-form.php:651
+msgid "Subject text is required."
+msgstr "必須填寫標題欄位"
+
+#: si-contact-form.php:655
+msgid "Message text is required."
+msgstr "必須填寫訊息內容"
+
+#: si-contact-form.php:694
+msgid "Could not read CAPTCHA cookie. Make sure you have cookies enabled and not blocking in your web browser settings. Or another plugin is conflicting. See plugin FAQ."
+msgstr "無法讀取 CAPTCHA cookie。請確認瀏覽器設定已啟用且沒有阻擋cookie功能，也有可能是其他plugin衝突所造成。請參考plugin FAQ。"
+
+#: si-contact-form.php:698
+msgid "Please complete the CAPTCHA."
+msgstr "請輸入完整的CAPTCHA驗證碼"
+
+#: si-contact-form.php:708
+msgid "That CAPTCHA was incorrect."
+msgstr "輸入的CAPTCHA驗證碼不正確"
+
+#: si-contact-form.php:720
+msgid "contact"
+msgstr "contact"
+
+#: si-contact-form.php:722
+msgid "Sent from"
+msgstr "由"
+
+#: si-contact-form.php:722
+msgid "contact form"
+msgstr "contact form"
+
+#: si-contact-form.php:724
+msgid "To"
+msgstr "寄給"
+
+#: si-contact-form.php:726
+msgid "From"
+msgstr "由"
+
+#: si-contact-form.php:730
+#: si-contact-form.php:897
+msgid "Message"
+msgstr "訊息內容"
+
+#: si-contact-form.php:739
+msgid "Sent from (ip address)"
+msgstr "來源(IP位址)"
+
+#: si-contact-form.php:740
+msgid "Coming from (referer)"
+msgstr "拜訪頁面(referer)"
+
+#: si-contact-form.php:741
+msgid "Using (user agent)"
+msgstr "使用瀏覽器(user agent)"
+
+#: si-contact-form.php:804
+msgid "Contact Form"
+msgstr "Contact Form"
+
+#: si-contact-form.php:809
+msgid "INPUT ERROR: Please make corrections below and try again."
+msgstr "輸入錯誤: 請確認以下輸入都正確，並再試一次。"
+
+#: si-contact-form.php:818
+msgid "Department to Contact"
+msgstr "聯絡對象"
+
+#: si-contact-form.php:824
+msgid "Select"
+msgstr "選擇"
+
+#: si-contact-form.php:851
+msgid "Name"
+msgstr "姓名"
+
+#: si-contact-form.php:859
+#: si-contact-form.php:877
+msgid "E-Mail Address"
+msgstr "E-Mail 位址"
+
+#: si-contact-form.php:866
+msgid "E-Mail Address again"
+msgstr "E-Mail 位址(再次輸入)"
+
+#: si-contact-form.php:870
+msgid "Please enter your E-mail Address a second time."
+msgstr "請輸入你的E-mail位址兩次"
+
+#: si-contact-form.php:887
+msgid "Subject"
+msgstr "主旨："
+
+#: si-contact-form.php:914
+msgid "submit"
+msgstr "送出"
+
+#: si-contact-form.php:956
+msgid "ERROR: si-contact-form.php plugin says GD image support not detected in PHP!"
+msgstr "錯誤：偵測到目前PHP版本不支援GD image模組"
+
+#: si-contact-form.php:957
+msgid "Contact your web host and ask them why GD image support is not enabled for PHP."
+msgstr "聯絡你的主機商，詢問為何主機PHP版本不支援 GD image模組"
+
+#: si-contact-form.php:961
+msgid "ERROR: si-contact-form.php plugin says imagepng function not detected in PHP!"
+msgstr "錯誤：偵測到目前PHP版本不支援 imagepng 函式"
+
+#: si-contact-form.php:962
+msgid "Contact your web host and ask them why imagepng function is not enabled for PHP."
+msgstr "聯絡你的主機商，詢問為何主機PHP版本不支援  imagepng 函式"
+
+#: si-contact-form.php:966
+msgid "ERROR: si-contact-form.php plugin says captcha_library not found."
+msgstr "錯誤： 沒有找到captcha程式庫(captcha_library)"
+
+#: si-contact-form.php:985
+msgid "CAPTCHA Code"
+msgstr "CAPTCHA 驗證碼"
+
+#: si-contact-form.php:994
+msgid "CAPTCHA Image"
+msgstr "CAPTCHA 驗證圖片"
+
+#: si-contact-form.php:995
+msgid "Audible Version of CAPTCHA"
+msgstr "CAPTCHA的語音版本"
+
+#: si-contact-form.php:996
+msgid "Audio Version"
+msgstr "語音版本"
+
+#: si-contact-form.php:998
+msgid "Refresh Image"
+msgstr "更換一張圖片"
+
+#: si-contact-form.php:1000
+msgid "Reload Image"
+msgstr "重新載入圖片"
+
+#: si-contact-form.php:1016
+msgid "ERROR"
+msgstr "錯誤"
+
+#: si-contact-form.php:1184
+msgid "Settings"
+msgstr "設定"
+
+#. Plugin Name of an extension
+msgid "Fast and Secure Contact Form"
+msgstr "快速而且安全的 Contact Form"
+
+#. Plugin URI of an extension
+msgid "http://www.642weather.com/weather/scripts-wordpress-si-contact.php"
+msgstr "http://www.642weather.com/weather/scripts-wordpress-si-contact.php"
+
+#. Description of an extension
+msgid "Fast and Secure Contact Form for WordPress. The contact form lets your visitors send you a quick email message. Blocks all common spammer tactics. Spam is no longer a problem. Includes a CAPTCHA and Akismet. Does not require JavaScript. <a href=\"plugins.php?page=si-contact-form/si-contact-form.php\">Settings</a> | <a href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=6105441\">Donate</a>"
+msgstr "快速而且安全的 Contact Form for WordPress。此 contact form 可讓你的訪客快速的寄送一個Email訊息。阻擋所有的廣告攻擊(不再是問題)。包含 CAPTCHA 驗證 和 Akismet。 不需要Javascript支援 <a href=\"plugins.php?page=si-contact-form/si-contact-form.php\">設定</a> | <a href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=6105441\">贊助</a>"
+
+#. Author of an extension
+msgid "Mike Challis"
+msgstr "Mike Challis"
+
+#. Author URI of an extension
+msgid "http://www.642weather.com/weather/scripts.php"
+msgstr "http://www.642weather.com/weather/scripts.php"
+
