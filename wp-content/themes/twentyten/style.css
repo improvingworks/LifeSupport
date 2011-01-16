@@ -365,7 +365,7 @@ a:hover {
 
 #access {	
 	display: block;
-    float: right;
+    float: left;
 	margin: 0 auto;
 }
 
@@ -385,11 +385,15 @@ div.menu li {
 	position: relative;
 }
 #access a {
-	color: #aaa;
+	color: #666;
 	display: block;
+    font-weight:bold;
+    font-family:Helvetica, sans-serif;
+    font-size:16px;
 	line-height: 38px;
 	padding: 0 10px;
 	text-decoration: none;
+    background:white;
 }
 #access ul ul {
 	box-shadow: 0px 3px 3px rgba(0,0,0,0.2);
@@ -400,7 +404,7 @@ div.menu li {
 	top: 38px;
 	left: 0;
 	float: left;
-	width: 180px;
+	width: auto;
 	z-index: 99999;
 }
 #access ul ul li {
@@ -411,26 +415,20 @@ div.menu li {
 	top: 0;
 }
 #access ul ul a {
-	background: #333;
 	line-height: 1em;
 	padding: 10px;
-	width: 160px;
+    width:auto;
 	height: auto;
 }
 #access li:hover > a,
 #access ul ul :hover > a {
-	background: #333;
-	color: #fff;
+    color: #999;
+    text-decoration:underline;
 }
 #access ul li:hover > ul {
 	display: block;
 }
-#access ul li.current_page_item > a,
-#access ul li.current-menu-ancestor > a,
-#access ul li.current-menu-item > a,
-#access ul li.current-menu-parent > a {
-	color: #fff;
-}
+
 * html #access ul li.current_page_item a,
 * html #access ul li.current-menu-ancestor a,
 * html #access ul li.current-menu-item a,
