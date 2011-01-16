@@ -356,8 +356,6 @@ a:hover {
 
 /* This is the custom header image */
 #branding img {
-	border-top: 4px solid #000;
-	border-bottom: 1px solid #000;
 	clear: both;
 	display: block;
 }
