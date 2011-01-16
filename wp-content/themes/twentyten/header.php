@@ -73,9 +73,6 @@
 			    </div><!-- #access -->
                </div>
 			</div>
-            
-            
-            <div id="site-description"><?php bloginfo( 'description' ); ?></div>
 		</div><!-- #masthead -->
 	</div><!-- #header -->
 
