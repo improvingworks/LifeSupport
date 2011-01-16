@@ -26,11 +26,11 @@
               	<a href="<?php echo home_url( '/' ) ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
 					<?php bloginfo( 'name' ); ?>
 				</a>&nbsp;&nbsp;
-                <a href="<?php echo home_url( '/' ); ?>/privacy-policy">Privacy policy
+                <a href="<?php echo home_url( '/' ); ?>privacy-policy">Privacy policy
                 </a>&nbsp;&nbsp;
-                <a href="<?php echo home_url( '/' ); ?>/terms-and-conditions">Terms and conditions
+                <a href="<?php echo home_url( '/' ); ?>terms-and-conditions">Terms and conditions
                 </a>&nbsp;&nbsp;
-                <a href="<?php echo home_url( '/' ); ?>/disclaimers">Disclaimers
+                <a href="<?php echo home_url( '/' ); ?>disclaimers">Disclaimers
                 </a>
 			</div><!-- #site-info -->
 
