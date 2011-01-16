@@ -63,7 +63,7 @@
                          <img src="<?php bloginfo('template_directory'); ?>/images/LifeSupportLogo400.png" width="<?php echo HEADER_IMAGE_WIDTH; ?>" height="<?php echo HEADER_IMAGE_HEIGHT; ?>" alt="" />
                     </a>
                 </div>
-            <div class="grid_8" style="padding-top: 40px; text-align: right;">
+            <div class="grid_8" style="padding:40px 0 0 40px;">
                  <div id="access" role="navigation">
 			  <?php /*  Allow screen readers / text browsers to skip the navigation menu and get right to the good stuff */ ?>
 				<div class="skip-link screen-reader-text"><a href="#content" title="<?php esc_attr_e( 'Skip to content', 'twentyten' ); ?>"><?php _e( 'Skip to content', 'twentyten' ); ?></a></div>
