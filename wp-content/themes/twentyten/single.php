@@ -32,6 +32,7 @@ get_header(); ?>
 
                 <div class="grid_6">
                     <div class="supportgroup-metadata">
+                        <h3>About the Group</h3>
                         <?php lifesupport_get_supportgroup_fields(); ?>
                     </div>
                     <?php global $mappress; if ($mappress->shortcode_map() != ''): ?>
