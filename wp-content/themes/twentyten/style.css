@@ -155,7 +155,6 @@ code {
 -------------------------------------------------------------- */
 
 /* The main theme structure */
-#access .menu-header,
 div.menu,
 #colophon,
 #branding,
@@ -364,14 +363,12 @@ a:hover {
 /* =Menu
 -------------------------------------------------------------- */
 
-#access {
-	background: #000;
+#access {	
 	display: block;
-	float: left;
+    float: right;
 	margin: 0 auto;
-	width: 940px;
 }
-#access .menu-header,
+
 div.menu {
 	font-size: 13px;
 	margin-left: 12px;
