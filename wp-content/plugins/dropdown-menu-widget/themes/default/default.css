@@ -47,6 +47,7 @@ ul.dropdown {
 	 color: #000;
 	}
 
+	ul.dropdown a,
 	ul.dropdown a:link,
 	ul.dropdown a:visited	{ color: #000; text-decoration: none; }
 	ul.dropdown a:hover		{ color: #000; }
@@ -72,7 +73,7 @@ ul.dropdown {
  */
 
 
-ul.dropdown *.dir {
+ul.dropdown *.dir, ul.dropdown *.parent {
  padding-right: 20px;
  background-image: url(images/nav-arrow-down.png);
  background-position: 100% 50%;

@@ -1,10 +1,10 @@
 === Dropdown Menu Widget ===
 Contributors: mattsay
 Donate link: http://shailan.com/donate  
-Tags: css, dropdown, menu, widget, pages, categories, multi, jquery, navigation
+Tags: css, dropdown, menu, widget, pages, categories, multi, jquery, navigation, category list, themes, custom-styles, options-page, animations, effects
 Requires at least: 2.8  
-Tested up to: 3.0.2
-Stable tag: 1.5.8
+Tested up to: 3.1
+Stable tag: 1.7.2
 
 This widget adds a beatiful vertical/horizontal CSS only dropdown menu of Pages, Categories or Custom navigation menus of your blog.
 
@@ -46,6 +46,46 @@ You can submit errors and bugs using the [online form](http://shailan.com/contac
 1. Brand new dropdown menu options page.
 
 == Changelog ==
+
+= 1.7.2 =
+* Fixed: Widget hotfix.
+
+= 1.7.1 = 
+* Fixed: Template tag hotfix. Fixes displaying vertical instead of horizontal. 
+
+= 1.7 = 
+* Added: brand new options page.
+* Added: Web2.0 Theme.
+* Added: width option to widgets.
+* Fixed: Right aligned menu dropdown errors.
+* Added: Effect delay option (hoverIntent).
+* Added: Plugin both search theme & template folders for dropdown.css
+* Added: Adminbar button to easily change current options.
+
+= 1.6.4 =
+* Fixed effect selector error.
+* Added width option for vertical menus.
+
+= 1.6.3 =
+* Fixed: Supplied arguments for the menu overwritten in the menu function.
+* Added: Now you can easily add menus using menu names & ids and even locations.
+
+= 1.6.2 =
+* Fixed: Stylesheet causing widgets go behind widget containers. (Thanks to Antonio Capone for reporting the issue)
+
+= 1.6.1 =
+* Fix: Colorscheme background error.
+* Fix: jQuery not included when effects are enabled.
+* Added: Disabling options that are not used.
+* Added: Custom Theme URL option. 
+
+= 1.6 =
+* Added option to show title on widget.
+* Added capability to find dropdown.css on your theme folder.
+* Added jQuery dropdown effects.
+* Added remove title attributes option.
+* Added remove links from top level option.
+* Many more to come..
 
 = 1.5.8 = 
 * Added dropdown_menu_defaults filter for changing default options like order, depth etc.

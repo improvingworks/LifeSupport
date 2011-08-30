@@ -1,0 +1,209 @@
+
+/** Dropdown Menu Widget Admin Styles */
+
+.stf_options_page{ font-family: 'Droid Sans', serif; }
+
+#shailancom{ float:right; width:250px;  }
+#shailancom li{ font-family: 'Droid Sans', serif; font-size: 115%; line-height:150%; margin-bottom:1em; }
+#stf_nav{ font-family: 'Droid Sans', serif; font-size: 110%; line-height:150%; margin-bottom:1em; margin:5px 15px 10px 45px; color:#ddd; }
+#stf_nav a{ text-decoration:none }
+#donate {
+	padding: 10px;
+	border: 1px solid #E6DB55;
+	border-radius: 10px;
+	margin-bottom: 15px;
+	font-style: italic;
+	text-align: center;
+	background: lightYellow;
+	color: #827500;
+}
+#stf_tweet{ background-color:#EAF9FE; border:1px solid #B0ECEE; border-radius:10px; padding:10px; }
+#stf_tweet li{ margin:0; font-size:13px; color:#208FBE; }
+
+.follow-link {
+	font-style: italic;
+	padding: 5px 15px 5px 30px;
+	display: block;
+	background: url(images/twitter.png) 13px 50% no-repeat;
+}
+
+.stf_share{ background:#ededed; padding:5px; border-radius:5px; overflow:hidden; margin-right:15px; }
+.share-label, .share-button{ display:inline; float:left; margin-right:10px; }
+.share-label{ 
+	margin-top: 3px;
+	margin-left: 5px;
+	font-size: 16px;
+	text-shadow: white 1px 1px 0;
+	color: #aaa; 
+} .stf_share:hover .share-label{ color:#21759B }
+.tweet{ margin-top:2px; }
+.panel{ background: #ededed; border-bottom:1px solid #ddd; }
+a.helplink{ color:#666; text-decoration:none; }
+
+.shailan_dm_input{padding:10px;}
+.shailan_dm_input small{font-style:italic; font-size:smaller; color:#666;}
+.shailan_dm_input label{	font-size:12px;
+	width:200px;
+	display:block;
+	float:left;	}
+
+.shailan_dm_input input[type=text]{
+	width:280px;}
+
+.shailan_dm_input textarea{
+	width:400px; height:150px; }
+	
+#widgets-right .widgets-sortables{ min-height:0px; }
+
+.widget-holder{position:relative; zoom:1;}
+
+#picker{ 
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	background: white;
+	box-shadow: #999 0 1px 15px;
+	border-radius: 8px;
+}
+
+.sidebar-name{overflow:auto; display:block;}
+.sidebar-name h3{float:left;}
+.sidebar-name span{float:right;}
+
+input.selected{border:1px solid #f93}
+input.color-error{border:1px solid #f00;}
+
+
+
+.stf_options { margin-top: 20px; margin-right:265px; text-shadow:#fff 0 0 1px }
+.stf_opts_wrap{ width:100%; margin-right:-265px; }
+.stf_section{  }
+.stf_options label{ font-size:14px; font-weight:500; width:230px; display:block; float:left; line-height:24px; }
+.stf_paragraph{ padding:10px; background:#eee; border-radius:8px; }
+.stf_input { padding:10px 10px; border-bottom:1px solid #eee; }
+.stf_options small{ 
+	display: block;
+	float: left;
+	width: 330px;
+	color: #999;
+	font-style: italic;
+	font-size: 13px;
+	margin-left: 15px;
+	line-height: 24px;
+}
+.stf_options small:hover{ color:#444; }
+.stf_options input[type="text"], .stf_options textarea, .stf_options select { 
+	width:250px; font-size:12px; padding:4px; color:#333; line-height:1em;	background:#efefef; float:left; }
+.stf_options input[type="checkbox"]{ float:left; margin:5px 0; }
+.stf_input input:focus, .stf_input textarea:focus{ background:#fff; }
+.stf_input textarea{ width:250px; height:135px; font-size:12px; padding:4px; color:#333; line-height:1.5em; background:#efefef;
+}
+.stf_table th, .stf_table td{ border:1px solid #bbb; padding:10px; text-align:center; }
+.stf_table th, .stf_table td.feature{ border-color:#ccc; }
+
+.stf_options ul.tabs {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	height: 32px; /*--Set height of tabs--*/
+	border-bottom: 1px solid #ddd;
+	/* border-left: 1px solid #ddd; */
+	border-left: 0;
+	border-top-left-radius: 4px; 
+	width: 100%;
+	float:none;
+}
+.stf_options ul.tabs li {
+	float: left;
+	margin: 0;
+	padding: 0;
+	height: 31px; /*--Subtract 1px from the height of the unordered list--*/
+	line-height: 31px; /*--Vertically aligns the text within the tab--*/
+	border: 1px solid #ddd;
+	/*border-left: none;*/
+	margin-bottom: -1px; /*--Pull the list item down 1px--*/
+	overflow: hidden;
+	position: relative;
+	background: #efefef;
+	border-top-left-radius: 4px; 
+	border-top-right-radius: 4px; 
+	font-family: 'Droid Sans', serif;
+}
+.stf_options ul.tabs li a {
+	text-decoration: none;
+	color: #999;
+	display: block;
+	font-size: 1.3em;
+	padding: 0 10px 0 10px;
+	border: 1px solid #fff; /*--Gives the bevel look with a 1px white border inside the list item--*/
+	outline: none;
+	background-position: 6px 50%;
+	background-repeat: no-repeat;
+	border-top-left-radius: 6px; 
+	border-top-right-radius: 6px; 
+}
+.stf_options ul.tabs li a:hover { background-color: #fff; }
+.stf_options ul.tabs li:hover { border-top:1px solid #f60; }
+
+html .stf_options ul.tabs li.active, html .stf_options ul.tabs li.active a:hover  { /*--Makes sure that the active tab does not listen to the hover properties--*/
+	background-color: #fff;
+	border-bottom: 1px solid #fff; /*--Makes the active tab look like it's connected with its content--*/
+	border-top-left-radius: 5px; 
+	border-top-right-radius: 5px;
+}
+
+html .stf_options ul.tabs li.active  { /*--Makes sure that the active tab does not listen to the hover properties--*/
+	border-top-color:#2275AA;
+}
+
+.stf_options .tab_container { 
+	border: 1px solid #ddd; border-top: none; float:none; clear:none; overflow: hidden; width: 100%; background: #fff; position: relative; }
+.stf_options .tab_content { padding: 20px; }
+
+.stf_options #tabs-footer{ 
+	padding: 15px; 
+	border-top: 1px solid #ddd; 
+	overflow: hidden; 
+	background: transparent;
+}
+#tabs-footer .copyright { margin-top: 24px } 
+.stf_options #tabs-footer p.submit{ margin:0; padding:0; float:right; }
+.stf_options #options-tabs .button-primary { 
+background-image: url('images/disk.png');
+background-position: 12px 50%;
+background-repeat: no-repeat;
+padding: 12px 30px 12px 40px;
+border-radius: 8px;
+-webkit-border-radius: 8px;
+-moz-border-radius: 5px;
+font-family: 'Droid Sans', serif;
+font-size: 16px !important; font-weight:normal; text-shadow: #1A5B77 1px 1px 1px;}
+	
+.stf_options #options-tabs .button-primary:hover{ background-color: #298CBA; }
+.stf_options #options-tabs .button-primary:active{ background-color: #21759B; }
+
+.stf_options #options-tabs .wysiwyg{ float:left; padding:0; }
+.stf_options #options-tabs .wysiwyg ul.panel li { background-color:transparent; }
+
+.stf_options ul.tabs li a.general { padding-left:28px; background-image: url('images/cog.png'); }
+.stf_options ul.tabs li a.advanced { padding-left:28px; background-image: url('images/wrench_orange.png'); }
+.stf_options ul.tabs li a.colors { padding-left:28px; background-image: url('images/color_wheel.png'); }
+.stf_options ul.tabs li a.effects { padding-left:28px; background-image: url('images/lightning.png'); }
+.stf_options ul.tabs li a.template-tag { padding-left:28px; background-image: url('images/tag.png'); }
+
+
+/* Clearfix */
+.clearfix:after {
+	clear: both;
+	content: ".";
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+* html > body .clearfix {
+	display: block;
+	width: 100%;
+}
+* html .clearfix {
+	height: 1%;
+}

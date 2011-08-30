@@ -25,7 +25,7 @@ if ( isset($_POST['ctf_action'] )
 
         // format the data to be stored in contact-form-backup.txt
         $string .= "**SERIALIZED DATA, DO NOT HAND EDIT!**$eol";
-        $string .= "Backup of forms and settings for 'Fast Secure Contact Form' WordPress plugin$eol";
+        $string .= "Backup of forms and settings for 'Fast Secure Contact Form' WordPress plugin $ctf_version$eol";
         $string .= 'Form ID included in this backup: '.$backup_type.$eol;
         $string .= "Web site: ".get_option('home').$eol;
         $string .= "Web site name: ".get_option('blogname').$eol;

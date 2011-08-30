@@ -59,23 +59,6 @@ ul.dropdown ul *.dir {
  padding: 8px 30px 8px 8px;
 }
 
-
-
-/*------------------------------------------------------------------------------------------------------/
- *	@section	Custom Styles
- */
-
-
-ul.dropdown ul a {
- width: 133px;
-}
-
-ul.dropdown ul a.dir {
- width: 111px;
-}
-
-
-
 /*------------------------------------------------------------------------------------------------------/
  * @section		Support Class `open` Usage
  * @source		js, artificial

@@ -1,7 +1,7 @@
 ul.dropdown { font: bold 12px Arial, Helvetica, sans-serif; }
 ul.dropdown li { padding: 7px 12px; background-color: #000; color: #fff; }
 ul.dropdown li.hover, ul.dropdown li:hover { background-color: #222; }
-ul.dropdown a:link, ul.dropdown a:visited { color: #fff; text-decoration: none; }
+ul.dropdown a, ul.dropdown a:link, ul.dropdown a:visited { color: #fff; text-decoration: none; }
 ul.dropdown a:hover { color: #fff; text-decoration: underline; }
 ul.dropdown a:active { color: #fff; }
 
@@ -32,7 +32,7 @@ ul.dropdown a:active { color: #fff; }
 		 font-weight: bold;
 		}
 
-ul.dropdown ul a:link, ul.dropdown ul a:visited { color: #000; }
+ul.dropdown ul a, ul.dropdown ul a:link, ul.dropdown ul a:visited { color: #000; }
 ul.dropdown ul a:hover { color: #000; text-decoration: none; }
 ul.dropdown ul a:active { color: #000; }
 

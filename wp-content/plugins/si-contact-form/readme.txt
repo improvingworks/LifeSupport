@@ -4,14 +4,16 @@ Author URI: http://www.642weather.com/weather/scripts.php
 Donate link: http://www.FastSecureContactForm.com/donate
 Tags: Akismet, captcha, contact, contact form, form, mail, email, spam, multilingual, wpmu, buddypress
 Requires at least: 2.8
-Tested up to: 3.0.4
+Tested up to: 3.2.1
 Stable tag: trunk
 
-A super customizable contact form that lets your visitors send you email. Blocks all automated spammers. Packed with settings and features.
+A super customizable contact form that lets your visitors send you email. Blocks all automated spammers. No templates to mess with.
 
 == Description ==
 
-Fast Secure Contact Form for WordPress. This contact form lets your visitors send you a quick E-mail message. Blocks all common spammer tactics. Spam is no longer a problem. Includes a CAPTCHA and Akismet support. Additionally, the plugin has a multi-form feature, optional extra fields, and an option to redirect visitors to any URL after the message is sent. Super customizable.
+This plugin allows a webmaster to easily create and add contact forms to WordPress. The contact form will let the user send emails to a site's admin. An administration panel is present, where the webmaster can create and preview unlimited forms. 
+
+Features a super easy admin panel, multi-form feature, autoresponder, no templates to mess with, and an option to redirect visitors to any URL after the message is sent. Includes CAPTCHA and Akismet support to block all common spammer tactics. Spam is no longer a problem. You can add extra fields of any type: text, textarea, checkbox, checkbox-multiple, radio, select, select-multiple, attachment, date, time, hidden, password, and fieldset.
 
 * [FastSecureContactForm.com](http://www.fastsecurecontactform.com/)
 * [Download WordPress Plugin Version](http://downloads.wordpress.org/plugin/si-contact-form.zip)
@@ -24,16 +26,16 @@ If you find this plugin useful to you, please consider [__making a small donatio
 Features:
 --------
  * Super easy customizable Options from Admin settings page.
- * Multi-Form feature that allows you to have as many different forms as you need.
- * Optional extra fields of any type: text, textarea, checkbox, radio, select, attachment, date, time, hidden, password, fieldset(box).
+ * Multi-Form feature that allows you to have as many different forms as you need.[See FAQ](http://www.fastsecurecontactform.com/multiple-e-mail-recipients)
+ * Optional extra fields of any type: text, textarea, checkbox, checkbox-multiple, radio, select, select-multiple, attachment, date, time, hidden, password, fieldset(box). [See FAQ](http://www.fastsecurecontactform.com/how-to-add-extra-fields)
  * File attachments are supported, see here for details: http://wordpress.org/support/topic/416371
- * Backup/restore tool. You can backup/restore all your forms or single forms and settings.
+ * Backup/restore tool. You can backup/restore all your forms or single forms and settings.[See FAQ](http://www.fastsecurecontactform.com/backup-restore-forms)
  * Easy to hide subject and message fields for use as a newsletter signup.
- * Supports sending mail to multiple departments.
- * Optional redirect to any URL after message sent.
- * Optional autoresponder E-mail message.
+ * Supports sending mail to multiple departments.[See FAQ](http://www.fastsecurecontactform.com/tip-form-preview)
+ * Optional - redirect to any URL after message sent.
+ * Optional - posted data can be sent as a query string on the redirect URL. [See faq](http://www.fastsecurecontactform.com/sending-data-by-query-string)
+ * Optional - autoresponder E-mail message.[See FAQ](http://www.fastsecurecontactform.com/tip-add-email-autoresponder)
  * Valid coding for HTML, XHTML, HTML STRICT, Section 508, and WAI Accessibility.
- * JavaScript is not required.
  * Uses simple inline error messages.
  * Reloads form data and warns user if user forgets to fill out a field.
  * Validates syntax of E-mail address.
@@ -43,7 +45,9 @@ Features:
  * Customizable form field titles.
  * Customizable CSS style.
  * Sends E-mail with UTF-8 character encoding for US and International character support.
- * I18n language translation support (see FAQ)
+ * Pre-fill in form fields from a URL query string. [See FAQ](http://www.fastsecurecontactform.com/query-string-parameters)
+ * Save emails to the WordPress database, or export to CSV or Excel. [See FAQ](http://www.fastsecurecontactform.com/save-to-database)
+ * I18n language translation support. [See FAQ](http://www.fastsecurecontactform.com/how-to-translate)
 
 Security:
 --------
@@ -60,23 +64,22 @@ Captcha Image Support:
  * Uses Open-source free PHP CAPTCHA library by www.phpcaptcha.org (customized version included)
  * Abstract background with multi colored, angled, and transparent text
  * Arched lines through text
- * Visual and Audible CAPTCHA
  * Refresh button to reload captcha if you cannot read it
  * CAPTCHA can be disabled in Options
 
 Requirements/Restrictions:
 -------------------------
  * Works with Wordpress 2.8+, WPMU, and BuddyPress (Wordpress 3.0+ is highly recommended)
- * PHP 4.3.9 or above with GD2 library support. (PHP5 is highly recommended)
+ * PHP5 
  * PHP register_globals and safe_mode should be set to "Off".
 
 == Installation ==
 
-1. Upload the `si-contact-form` folder to the `/wp-content/plugins/` directory, or download through the `Plugins` menu in WordPress
+1. Install automatically through the `Plugins`, `Add New` menu in WordPress, or upload the `si-contact-form` folder to the `/wp-content/plugins/` directory. 
 
 2. Activate the plugin through the `Plugins` menu in WordPress. Look for the Settings link to configure the Options. 
 
-3. You must add the shortcode `[si-contact-form form='1']` in a Page(not a Post). That Page will become your Contact Form. Here is how: Log into your blog admin dashboard. Click `Pages`, click `Add New`, add a title to your page, enter the shortcode `[si-contact-form form='1']` in the page, uncheck `Allow Comments`, click `Publish`. 
+3. Add the shortcode `[si-contact-form form='1']` in a Page, Post, or Text Widget. Here is how: Log into your blog admin dashboard. Click `Pages`, click `Add New`, add a title to your page, enter the shortcode `[si-contact-form form='1']` in the page, uncheck `Allow Comments`, click `Publish`. 
 
 4. Test an email from your form.
 
@@ -85,38 +88,8 @@ Requirements/Restrictions:
 
 = I just installed this and do not get any email from it, what could be wrong? =
 
-1. Make sure you have the correct "E-mail To:" set in options. 
 
-2. Check your spam folder, maybe the email went there. 
-
-3. Use the E-mail test feature at the bottom of the settings page, if you are not receiving mail, try it. It might display troubleshooting information.
-
-4. This setting on the contact form options might help you....
-Some web hosts do not allow PHP to send E-mail unless the "From:" E-mail address is on the same web domain as your web site. And they require it to be a real address on that domain, or mail will NOT SEND! (They do this to help prevent spam.) If your contact form does not send any E-mail, then set this to a real E-mail address on the SAME domain as your web site as a possible fix. After setting the from address; if your form still does not send any E-mail, also find this setting: "Send E-mail function:", try setting it to "geekMail", then test from the contact form again. If it still does not work, try setting it to try setting it to "PHP". In most cases, this will resolve the problem. Remember to also change the settings on all your other forms.
-
-5. Maybe another plugin is conflicting. Do this as a test:
-Temporarily disable all your other plugins. Does it work now? If yes, enable the plugins one by one to determine which one conflicts. 
-
-6. Sometimes your mail server IP address ends up on a SORBS or RBL spam list and gets blocked by various mail systems. This may not be your fault because
-many sites on a web hosting server share the same IP. Check if your mail server IP is blacklisted by SORBS
-http://www.au.sorbs.net/
-You can find your email server IP in the header of a received email (if you have one) sent from your site. Contact your web host for support.
-
-7. Here is another option for you:
-Get a free gmail account.
-On the contact form settings page, find this setting: "Send E-mail function:", set it back to "WordPress".
-Install the plugin called [WP Mail SMTP](http://wordpress.org/extend/plugins/wp-mail-smtp/),  then set it to use gmail SMTP for mail.
-Set these settings for "WP Mail SMTP":
-Mailer: SMTP, 
-SMTP Host: smtp.gmail.com, 
-SMTP Port: 465, 
-Encryption: SSL, 
-Authentication: Yes, 
-Username: your full gmail address, 
-Password: your mail password.
-Now use gmail to check for your contact form mail, or set gmail to forward the mail to your other address.
-
-8. Maybe your web server has a broken mail function, contact your web host for support.
+[See FAQ page: How to troubleshoot mail delivery](http://www.fastsecurecontactform.com/email-does-not-send)
 
 
 == Screenshots ==
@@ -136,47 +109,8 @@ Now use gmail to check for your contact form mail, or set gmail to forward the m
 
 = I just installed this and do not get any email from it, what could be wrong? =
 
-1. Make sure you have the correct "E-mail To:" set in options. 
+[See FAQ page: How to troubleshoot email delivery](http://www.fastsecurecontactform.com/email-does-not-send)
 
-2. Check your spam folder, maybe the email went there. 
-
-3. Use the E-mail test feature at the bottom of the settings page, if you are not receiving mail, try it. It might display troubleshooting information.
-
-4. This setting on the contact form options page might help you....
-Some web hosts do not allow PHP to send E-mail unless the "From:" E-mail address is on the same web domain as your web site. And they require it to be a real address on that domain, or mail will NOT SEND! (They do this to help prevent spam.) If your contact form does not send any E-mail, then set this to a real E-mail address on the SAME domain as your web site as a possible fix. After setting the from address; if your form still does not send any E-mail, also find this setting: "Send E-mail function:", try setting it to "geekMail" or "PHP", then test from the contact form again. In some cases, this will resolve the problem. 
-
-5. Maybe another plugin is conflicting. Do this as a test: Look on the Admin - Plugins - menu.
-Temporarily Disable (not uninstall) all your other plugins. Does it work now? If yes, Activate the plugins one by one to determine which one conflicts.  
-
-6. Sometimes your mail server IP address ends up on a SORBS or RBL spam list and gets blocked by various mail systems. This may not be your fault because
-many sites on a web hosting server share the same IP. Check if your mail server IP is blacklisted by SORBS
-http://www.au.sorbs.net/
-You can find your email server IP in the header of a received email (if you have one) sent from your site. Contact your web host for support.
-
-7. Here is another option for you:
-Get a free gmail account.
-On the contact form settings page, find this setting: "Send E-mail function:", set it back to "WordPress".
-Install the plugin called [WP Mail SMTP](http://wordpress.org/extend/plugins/wp-mail-smtp/),  then set it to use gmail SMTP for mail.
-Set these settings for "WP Mail SMTP":
-Mailer: SMTP, 
-SMTP Host: smtp.gmail.com, 
-SMTP Port: 465, 
-Encryption: SSL, 
-Authentication: Yes, 
-Username: your full gmail address, 
-Password: your mail password.
-Now use gmail to check for your contact form mail, or set gmail to forward the mail to your other address.
-
-8. Maybe your web server has a broken mail function, contact your web host for support.
-
-= I am not receiving mail, my host says a fifth parameter -f must be added to the PHP mail function. This will set the name of the from email address. =
-
-Do this:
-
-1. Some web hosts do not allow PHP to send E-mail unless the "From:" E-mail address is on the same web domain as your web site. And they require it to be a real address on that domain, or mail will NOT SEND! (They do this to help prevent spam.) If your contact form does not send any E-mail, then set this to a real E-mail address on the SAME domain as your web site as a possible fix. After setting the from address; if your form still does not send any E-mail, also find this setting: "Send E-mail function:", try setting it to "geekMail" or "PHP", then test from the contact form again. In some cases, this will resolve the problem. 
-
-2. Use the E-mail test feature at the bottom of the settings page, if you are not receiving mail, try it. It might display troubleshooting information.
-                        
 
 = Is this plugin available in other languages? =
 
@@ -186,6 +120,7 @@ At this point it would be useful to read [Installing WordPress in Your Language]
 The following translations are included in the download zip file:
 
 * Albanian (sq_AL) - Translated by [Romeo Shuka](http://www.romeolab.com)
+* Arabic (ar) partial translation - Translated by Jasmine Hassan
 * Bulgarian (bg_BG) - Translated by [Dimitar Atanasov](http://chereshka.net)
 * Chinese (zh_CN) - Translated by [Awu](http://www.awuit.cn/) 
 * Danish (da_DK) - Translated by [GeorgWP](http://wordpress.blogos.dk/wpdadkdownloads/)
@@ -198,9 +133,11 @@ The following translations are included in the download zip file:
 * Hungarian (hu_HU) - Translated by [Jozsef Burgyan](http://dmgmedia.hu)
 * Italian (it_IT) - Translated by [Gianni Diurno](http://gidibao.net/ "Gianni Diurno")
 * Japanese (ja) - Translated by [Ichiro Kozuka]
+* Norwegian Bokmal (nb_NO) - Translated by [Tore Johnny Bratveit](http://punktlig-ikt.no)
 * Polish (pl_PL) - Translated by [Pawel Mezyk]
 * Portuguese (pt_PT) - Translated by [AJBFerreira Blog](http://pws.op351.net/)
 * Portuguese Brazil (pt_BR) - Translated by [Rui Alao]
+* Romanian (ro_RO) - Translated by [Anunturi Jibo](http://www.jibo.ro)
 * Russian (ru_RU) - Translated by [Bezraznizi](http://www.sprestij.ru/)
 * Spanish (es_ES) - Translated by [Valentin Yonte Rodriguez](http://www.activosenred.com/)
 * Swedish (sv_SE) - Translated by [Daniel Persson](http://walktheline.boplatsen.se/)
@@ -246,6 +183,123 @@ No setting necessary, it just works.
 For more help... [See the official FAQ at FastSecureContactForm.com](http://www.fastsecurecontactform.com/faq-wordpress-version)
 
 == Changelog ==
+
+- Fix default text could not be 0.
+- Fix HTML validation with date field.
+- Fix rows and cols extra field atrributes.
+- Fix javascript console error on date calendar popup.
+
+= 3.0.3.2 =
+- (27 Jul 2011) - Fixed medium XSS HTB23036 - as advised by High-Tech Bridge SA Security Research Lab.
+- Fix, added missing 00 to 24 hour time select.
+
+= 3.0.3.1 =
+- (05 Jul 2011) - Tested / fixed to be compatible with WP 3.2
+- Fix for `&apos` entity showing for single quotes on IE7, IE8
+- Fix for CAPTCHA input field out of position on IE7 with labels left CSS setting.
+
+= 3.0.3 =
+- (16 Jun 2011) - Tested compatible with WP 3.2 Beta 2
+- "Number of available extra fields" setting is now for each form # instead of all forms.
+- CAPTCHA audio feature removed.
+- Misc. admin Fixes.
+- Another fix for empty autoresponder field tags were showing.
+- Calendar style improvements.
+
+= 3.0.2 =
+- (08 Jun 2011) - Fixed error: Undefined variable: securimage_url 
+- Added id tags to submit and reset buttons.
+- Updated Italian language (it_IT) - Translated by [Gianni Diurno](http://gidibao.net/ "Gianni Diurno")
+
+= 3.0.1 =
+- (02 Jun 2011) - CAPTCHA Audio feature is disabled by Mike Challis until further notice because a proof of concept code CAPTCHA solving exploit was released - Security Advisory - SOS-11-007. CAPTCHA image is not involved.
+- Security enhancements for possible low level XSS exploit in admin settings: thanks to [Julio Potier](http://secu.boiteaweb.fr/).
+- Fix javascript error when CAPTCHA audio is disabled.
+- Fixed missing width/height attributes for CAPTCHA images.
+- Fixed backslash problem on Restore Settings tool.
+- Fixed empty autoresponder field tags were showing.
+- Fixed various style improvements for admin error messages.
+- Added a popup alert for when changing the number of forms or extra fields.
+- Added setting: CSS style for CAPTCHA input field on the contact form.
+- Added Norwegian Bokmal (nb_NO) - Translated by [Tore Johnny Bratveit](http://punktlig-ikt.no)
+
+= 3.0 =
+- (25 Apr 2011) - Added (extra fields) default text can be set for text or textarea.
+- Added (extra fields) max length can be set for password, text or textarea.
+- Added (extra fields) attributes can be set for password, text or textarea.
+- Added (extra fields) validation regex can be set for password, text or textarea.
+- Added (extra fields) validation regex fail message can be set for password, text or textarea.
+- Added (extra fields) label or input CSS can be set individually for any extra field.
+- Added (extra fields) HTML before and after can be set.
+- Added (extra fields) 'email' extra field type with validation.
+- Added (extra fields) 'url' extra field type with validation.
+- Added (extra fields) first option of select field type can be in brackets to indicate [Please select].
+- Added 'email' field pulls up proper keyboard on iphone/ipad.
+- Added optional [form_label] tag for subject. 
+- Added time format option for 'time' extra field (select 12 or 24 hour).
+- Improved extra fields admin GUI.
+- Added Field labels are bold when HTML email is enabled.
+- Fix - trim spaces on extra field multiple options.
+- Fix - attached field allowed types separated by spaces.
+- Fix - bug in restore tool that could cause data loss.
+- Email validate DNS check disabled by default because some servers have big delay.
+
+= 2.9.8.6 =
+- (27 Mar 2011) - Fix HTML notes would not appear before a fieldset open.
+- Fix horizontal display feature for radio and multiple checkbox after post.
+- Fixed date calender on some themes by adding a high z-index to the CSS.
+- Added ability to use comma in "Email To:" name. If you need to use a comma besides the one needed to separate the name and email, escape it with a back slash, like this: \,
+- Added ability to specify cc and bcc in "Email To:". Example: Webmaster,user1@example.com;[cc]user2@example.com;[bcc]user3@example.com
+- Added more WordPress logged in user details to the email message footer.
+- Added optional "Are you sure?" form submit popup message (message can also be changed).
+- Added Arabic (ar) partial translation - Translated by Jasmine Hassan
+
+= 2.9.8.5 =
+- (08 Mar 2011) - Improved required date fields
+- Added optional form "reset" button.
+- Fixed escaped comma bug in Restore Tool
+
+= 2.9.8.4 =
+- (23 Feb 2011) - Fixed broken "fields to ignore" feature. 
+- File attach type and size labels can be changed.
+
+= 2.9.8.3 =
+- (14 Feb 2011) - Improvement: javascript is only loaded on pages when it is conditionally needed.
+- Fixed 2 label alignment problems with some themes.
+- Fixed possible javascript conflict that can break the redirect feature.
+- Fixed extra fields were not accepting zero.
+- More name labels can be changed.
+- Added new feature: Copy Settings Tool. This tool can copy your contact form settings from one form number to any of your other forms. Use to copy just the style settings, or all the settings from one form.
+- Added more shortcode optional settings [see FAQ page](http://www.fastsecurecontactform.com/shortcode-options) 
+- Added hidden field can accept query input. [see FAQ page](http://www.fastsecurecontactform.com/query-string-parameters)
+- Other fixes and enhancements
+
+= 2.9.8.2 =
+- (07 Feb 2011) - Fix critical error "invalid argument supplied foreach () /si-contact-form.php on line 474". Sorry for the inconvenience.
+- Fix "Enable data export after the message" setting would not uncheck.
+- Changed default setting: If you use Contact Form 7 to DB Extension Plugin, be sure to visit the form edit page and enable this setting: "Enable data export after the message", because it is not enabled by default.
+
+= 2.9.8.1 =
+- (07 Feb 2011) - Added Silent Send feature: Use to send the posted data to another form or 3rd party API [See FAQ](http://www.fastsecurecontactform.com/send-form-data-elsewhere)
+- Fixed blank from email when email address was set to "not available".
+- Added features: Now you can add tags to print posted data for the email subject, autoresponder subject, or the autoresponder message.
+To see instructions, just click "help" next to any of these fields on the form edit page. [See FAQ](http://www.fastsecurecontactform.com/tip-add-email-autoresponder)
+- Added feature: Data Export settings to manage what fields are allowed to be exported or ignored for each form. Also email can be disabled when exporting data.
+
+= 2.9.8 =
+- (29 Jan 2011) - Added setting: "Enable to receive email as HTML instead of plain text." Enable if you want the email message sent as HTML format. HTML format is desired if you want to avoid a 70 character line wordwrap when you copy and paste the email message. Normally the email is sent in plain text wordwrapped 70 characters per line to comply with most email programs. 
+- Added new settings in the "Redirect" section: You can Enable posted data to be sent as a query string on the redirect URL. This can be used to send the posted data via GET query string to a another form. 
+- New settings for redirect: "Query string fields to ignore", "Query string fields to rename", and "Disable email sending (use only when required while you have enabled query string on the redirect URL)". [See FAQ](http://www.fastsecurecontactform.com/sending-data-by-query-string)
+- Added version indicator and new version reminder to settings page.
+- Fixed a multiple email problem if using the same form in several posts. Anyway, it is recommended to use the form in a page or sidebar, not a post.
+- Fixed bug where form number was reset to 4 after trying to increase over 99.
+- Fixed so now one CAPTCHA random position always has to be a number so that a 4 letter swear word could never appear.
+- Many small fixes and enhancements. 
+- Added Romanian (ro_RO) - Translated by [Anunturi Jibo](http://www.jibo.ro)
+
+= 2.9.7.1 =
+- (19 Jan 2011) - Added ability to pre-fill in form fields from a URL query string. [see FAQ page](http://www.fastsecurecontactform.com/query-string-parameters)
+- Select Single posted data fix.
 
 = 2.9.7 =
 - (13 Jan 2011) - Added a new hook for other plugins to use (just after mail sent). This can be used to export the posted data and attachments to a database. A plugin for this is in the works, stay tuned.

@@ -15,7 +15,7 @@ ul.dropdown ul li.hover, ul.dropdown ul li:hover { background:transparent; }
 ul.dropdown li.hover a, ul.dropdown li:hover a{background:transparent;}
 
 /** Link colors */
-ul.dropdown a:link, ul.dropdown a:visited { color: #fff; text-decoration: none; line-height:27px !important; padding:0 10px; }
+ul.dropdown a, ul.dropdown a:link, ul.dropdown a:visited { color: #fff; text-decoration: none; line-height:27px !important; padding:0 10px; }
 ul.dropdown a:hover	{ color: #99cc33; background:transparent; }
 ul.dropdown a:active	{ color: #fff; }
 

@@ -116,13 +116,15 @@ Epoch.prototype.getTop = function (element) //PRIVATE: returns the absolute Top 
 {
     var oNode = element;
     var iTop = 0;
-    
-    //while(oNode.tagName != 'BODY') { // mchallis added for iE8 "object required" fix
-    while(oNode && oNode.tagName != 'BODY' && oNode.tagName != 'HTML') {
-        iTop += oNode.offsetTop;
-        oNode = oNode.offsetParent;
-    }
-
+	while(oNode && oNode.tagName != 'HTML') {  // mchallis modified to fix oNode error
+		iTop += oNode.offsetTop || 0;
+		if(oNode.offsetParent) { //i.e. the parent element is not hidden
+			oNode = oNode.offsetParent;
+		}
+		else {
+			break;
+		}
+	}
     return iTop;
 };
 //-----------------------------------------------------------------------------
@@ -130,13 +132,15 @@ Epoch.prototype.getLeft = function (element) //PRIVATE: returns the absolute Lef
 {
     var oNode = element;
     var iLeft = 0;
-
-    //while(oNode.tagName != 'BODY') {  // mchallis added for iE8 "object required" fix
-    while(oNode.tagName != 'BODY' && oNode.tagName != 'HTML') {
-        iLeft += oNode.offsetLeft;
-        oNode = oNode.offsetParent;        
-    }
-    
+	while(oNode && oNode.tagName != 'HTML') {  // mchallis modified to fix oNode error
+		iLeft += oNode.offsetLeft || 0;
+		if(oNode.offsetParent) { //i.e. the parent element is not hidden
+			oNode = oNode.offsetParent;
+		}
+		else {
+			break;
+		}
+	}
     return iLeft;
 };
 //-----------------------------------------------------------------------------

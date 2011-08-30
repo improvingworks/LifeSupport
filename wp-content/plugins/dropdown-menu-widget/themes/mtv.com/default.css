@@ -86,6 +86,7 @@
 
 		/* Links */
 
+		ul.dropdown a,
 		ul.dropdown a:link,
 		ul.dropdown a:visited { color: #fff; text-decoration: none;}
 		ul.dropdown a:hover {
@@ -111,8 +112,7 @@
 
 		ul.dropdown ul {
 		 /*left: auto;*/
-		 right: 0;
-		 width: 150px;
+		 right: 0; 
 		 margin-top: -1px;
 		 border-top: 1px solid #1a1a1a;
 		 border-left: solid 1px #4c4c4c;
@@ -146,20 +146,20 @@
 /* Mixed */
 
 ul.dropdown li a,
-ul.dropdown *.dir {
+ul.dropdown *.dir, ul.dropdown *.parent {
  border-style: solid;
  border-width: 1px;
  border-color: #404040 #1a1a1a #1a1a1a #505050;
 }
 
 ul.dropdown ul li a,
-ul.dropdown ul *.dir { border-color: #4a4a4a #242424 #242424; border-left: none; }
+ul.dropdown ul *.dir, ul.dropdown ul *.parent { border-color: #4a4a4a #242424 #242424; border-left: none; }
 
 ul.dropdown ul ul li a,
-ul.dropdown ul ul *.dir { border-color: #595959 #333 #333; }
+ul.dropdown ul ul *.dir, ul.dropdown ul ul *.parent { border-color: #595959 #333 #333; }
 
 ul.dropdown ul ul ul li a,
-ul.dropdown ul ul ul *.dir { border-color: #767676 #404040 #404040; }
+ul.dropdown ul ul ul *.dir, ul.dropdown ul ul ul *.parent { border-color: #767676 #404040 #404040; }
 
 /* Custom elements */
 

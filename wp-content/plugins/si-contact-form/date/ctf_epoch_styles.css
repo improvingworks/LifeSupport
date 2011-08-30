@@ -4,20 +4,28 @@ table.calendar {
 	border-collapse: collapse;
 	background-color: white;
 	border: solid #999999 1px;
-	background-color: white;
 	width: 200px;
+    z-index:500;
 	text-align: center;
 	/*prevent user from selecting text in Mozilla & Safari - check calendar constructor for IE code)*/
 	-moz-user-select: none;
     /*-khtml-user-select: none;*/
 }
-table.calendar input, table.calendar select {
-	font-size: 10px;
+table.calendar input {
+    font-size: 10px;
+    width:35px;
+    padding: 0;
+}
+table.calendar select {
+    font-size: 10px;
+    width:50px;
+    padding: 0;
 }
 table.calendar td {
 	border: 0;
 	font-size: 10px;
 	text-align: center;
+    padding: 1px;
 }
 div.mainheading {
 	margin: 2px;
@@ -27,6 +35,7 @@ table.caldayheading {
 	cursor: pointer;
 	empty-cells: show;
 	margin: 0 6px 0 6px;
+   	background-color: white;
 }
 table.caldayheading td {
 	border: solid #CCCCCC 1px;

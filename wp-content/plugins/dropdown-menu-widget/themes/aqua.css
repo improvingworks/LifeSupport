@@ -17,6 +17,7 @@ ul.dropdown-align-right li+li{ border-width: 0px 0px 0px 1px; }
 ul.dropdown li.hover, ul.dropdown li:hover { z-index: 98; cursor: default; background:transparent url(images/trans-white.png); color: #000; }
 
 /** Link colors */
+ul.dropdown a,
 ul.dropdown a:link,
 ul.dropdown a:visited	{ color: #333; font-weight:bold; text-decoration: none; display:block; }
 ul.dropdown a:hover	{ color: #000; font-weight:bold; }

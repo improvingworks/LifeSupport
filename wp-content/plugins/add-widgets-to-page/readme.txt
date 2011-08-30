@@ -18,6 +18,11 @@ Write [addw2p name="name"] to any page or posts you want the widget space to sho
 2. Go to Plugin page on your WordPressSite, and activate it.
 
 == Changelog ==
+
+1.3.1 Fix bug. (no more �_n)
+
+1.3 Added 'Replace spaces to under score' button.
+
 1.2 Now, the widget space will appear at the position of the short code.
     Also checked if it works on 3.0.
 

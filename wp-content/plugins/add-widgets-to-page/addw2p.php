@@ -1,8 +1,8 @@
 <?php
 /*
 Plugin Name: add widgets to page
-Plugin URI: http://www.ie.u-ryukyu.ac.jp/~e065708/wp_plugins/addw2p.html
-Version: 1.2
+Plugin URI: http://www.ie.u-ryukyu.ac.jp/‾e065708/wp_plugins/addw2p.html
+Version: 1.3.1
 Description: Adds Wiget space to Posts and Pages using shortcode.
 Author: Christina Uechi
 Author URI: http://twitter.com/ucc_tina
@@ -36,6 +36,19 @@ function addw2p_menu_options() {
 	echo '<h2>Add Widgets to Page</h2>'."\n";
 	$names = get_option('addw2pdn');
 	$names = explode("|",$names);
+	//remove spaces
+	if ( isset($_POST['RemoveSpace'])) {
+		foreach ( $names as $name ) {
+			if ( preg_match("/\s/",$name) ) {
+				$new_names .= str_replace(" ","_",$name);
+			} else {
+				$new_names .= $name;
+			}
+			$new_names .= "|";
+		}
+		update_option('addw2pdn',$new_names);
+		$names = explode("|",$new_names);
+	}
 	//delete widgets.
 	if ( isset($_POST['Delete']) ) {
 		foreach( $names as $name) {
@@ -44,7 +57,7 @@ function addw2p_menu_options() {
 		echo "<p>Deleted";
 		foreach ( $counts as $delete ) {
 			if ( !isset($_POST[$delete]) ) {
-				$count [] = $delete;
+				$count[] = $delete;
 			} else {
 				echo " ".$delete;
 			}
@@ -71,6 +84,8 @@ function addw2p_menu_options() {
 ?>
 <p>To use this, add [addw2p name="name"] to eny entries. (please change the name)<br />
 (by using a same name, you are able to show same widget space)</p>
+<p>WARNING: Please only use numbers and alphabet, do not use spaces. You will not be able to delete it with this plugin.<br />
+Bellow button'Replace spaces to under score' will change spaces to under score so you can delete it.</p>
 <p>To change the widgets that are showing, go to Appearance -> Widgets and edit the sidebar.</p>
 <p>To delete it, check the names which you want to delete and press Delete button below.</p>
 <p>There is <?php echo $num; ?> widget settings.</p>
@@ -80,7 +95,7 @@ function addw2p_menu_options() {
 	wp_nonce_field('update-options');
 	foreach ($count as $name ) {
 		echo '<tr><td style="padding:5px 15px 5px 5px;"><input type="checkbox" name="'.$name.'" value ="'.$name.'" ></td>'."\n";
-		echo '<td style="padding:5px 15px 5px 5px;">'.$name.'</td></tr><br />'."\n";
+		echo '<td style="padding:5px 15px 5px 5px;">'.$name.'</td></tr>'."\n";
 	}
 ?>
 <tr><td colspan="2">
@@ -89,6 +104,11 @@ function addw2p_menu_options() {
 <p class="submit"><input type="submit" name="Delete" class="delete-opts" value="Delete" /></p>
 </td></tr>
 </table>
+</form>
+<form method="post" action="<?php echo $_SERVER["REQUEST_URI"]; ?>">
+<input type="hidden" name="action" value="update" />
+<input type="hidden" name="page_options" value="addw2pdn" />
+<p><input type="submit" name="RemoveSpace" class="remove-space" value="Replace spaces to under score"></p>
 </form>
 </div>
 <?php

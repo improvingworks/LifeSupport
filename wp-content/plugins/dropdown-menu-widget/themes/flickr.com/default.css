@@ -46,6 +46,7 @@
 	 color: #0063dc;
 	}
 
+	ul.dropdown a,
 	ul.dropdown a:link,
 	ul.dropdown a:visited	{ color: #0063dc; text-decoration: none; }
 	ul.dropdown a:hover		{ color: #0063dc; text-decoration: underline; }
@@ -76,7 +77,7 @@
  */
 
 
-ul.dropdown *.dir {
+ul.dropdown *.dir, ul.dropdown *.parent {
  padding-right: 25px;
  background-image: url(images/nav-arrow-down.png);
  background-position: 95% 50%;
